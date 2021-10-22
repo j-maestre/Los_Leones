@@ -1,0 +1,68 @@
+{
+    "sillas":{
+        "0":{
+            "nombre":"nombre",
+            "tamaño":"15x40cm",
+            "color": "blanco",
+            "material":"madera",
+            "modelo":1172,
+            "precio": 70,
+            "stock": true,
+            "descuento":0.20,
+            "img":"base64"
+        },
+        "1":{
+            "nombre":"nombre",
+            "tamaño":"20x60cm",
+            "color": "rojo",
+            "material":"metal",
+            "modelo":1150,
+            "precio": 120,
+            "stock": true,
+            "descuento":0.50,
+            "img":"base64"
+        }
+        
+    },
+    "armarios":{
+        "0":{
+            "nombre":"nombre",
+            "tamaño":"105x70cm",
+            "color":"marron",
+            "material":"madera de pino",
+            "modelo":1348,
+            "precio":270,
+            "stock":false,
+            "descuento":0,
+            "img":"base64"
+        }
+        
+    },
+
+    "mesas":{
+        "0":{
+            "nombre":"nombre",
+            "tamaño":"100x45cm",
+            "color":"naranja",
+            "material":"mader de roble",
+            "modelo":3349,
+            "precio":130,
+            "stock":true,
+            "descuento":0.30,
+            "img":"base64"
+        }
+    },
+    "estanterias":{
+        "0":{
+            "nombre":"nombre",
+            "tamaño":"190x105cm",
+            "color":"negro",
+            "material":"madera de olivo",
+            "modelo":1442,
+            "precio":180,
+            "stock":true,
+            "descuento":0.10,
+            "img":"base64"
+        }
+    }
+}

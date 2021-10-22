@@ -14,34 +14,49 @@ console.log("HOMMMMMMMMMMMME")
 const Home = () => {
   // const { dispatch } = useContext(AppContext);
   const { t } = useTranslation();
-  // const geolocation = Geolocation;
-
-  // (function () {
-  //   try{
-  //     geolocation.getCurrentPosition().then(pos => {
-  //       // console.log('lat: ' + pos.coords.latitude + ', lon: ' + pos.coords.longitude);
-  //       let coords = {
-  //         latitude: pos.coords.latitude,
-  //         longitude: pos.coords.longitude,
-  //       }
-  //       dispatch({ type: "USER_COORDINATES", value: coords });
-  //     });
-  //   }catch(e){
-  //     console.log("Error get location: ", e)
-  //   }
-    
-  // })();
 
   return (
+    <section className="body">
     <section className="home">
       <Header page={t("pages.home")} />
       <p>Esto es el home</p>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <p>ole los caracoles</p>
-      <Footer/>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+      <p>Esto es el home</p>
+
+ 
+      <p>ole los caracoless</p>
+    </section>
+    <Footer/>
     </section>
   );
 };

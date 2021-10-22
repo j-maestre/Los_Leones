@@ -10,7 +10,6 @@ import './footer.css';
 const Footer: React.FC = () => {
    
         return (
-
             <section className="footer">
                 <div className="copyrights">
                     <div className="container-fluid">
@@ -32,14 +31,6 @@ const Footer: React.FC = () => {
                 </div>
 
             </section>
-
-                    // <IonFooter>
-                    //     <IonToolbar>
-                    //         <IonTitle class="footer">&copy; Los Leones Footer</IonTitle>
-                    //     </IonToolbar>
-                    // </IonFooter>
-
-    
         );
     
 }

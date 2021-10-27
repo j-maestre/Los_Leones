@@ -28,7 +28,7 @@ const Products = () => {
         <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
       </div>
 
-      <section className="products__menu">
+      <section className="products__menu button-group filter-button-group"> {/*text-center*/}
 					<button className="products__menu-item" id="all">Todo</button>
 					<button className="products__menu-item" id="sillas">Sillas</button>
 					<button className="products__menu-item" id="armarios">Armarios</button>

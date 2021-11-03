@@ -19,6 +19,7 @@
 @import url(../../css/owl.carousel.css);
 @import url(../../css/font-awesome.min.css);
 
+
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
@@ -436,7 +437,7 @@ a img.aligncenter {
 
 
 #mainNav{
-    background-color: #fff2a9;
+    background-color: var(--primary-color);
 }
 
 

@@ -7,7 +7,8 @@
 .copyrights {
     font-family: 'Poppins', sans-serif;
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #f8f7ce;
+    /* background-color: #f8f7ce; */
+    background-color: var(--secondary-color);
     box-sizing: border-box;
     width: 100%;
     text-align: left;

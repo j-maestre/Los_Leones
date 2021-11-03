@@ -1,6 +1,7 @@
 {
-    "sillas":{
+    "products":{
         "0":{
+            "type":"silla",
             "nombre":"nombre",
             "tamaño":"15x40cm",
             "color": "blanco",
@@ -12,6 +13,7 @@
             "img":"base64"
         },
         "1":{
+            "type":"silla",
             "nombre":"nombre",
             "tamaño":"20x60cm",
             "color": "rojo",
@@ -21,11 +23,9 @@
             "stock": true,
             "descuento":0.50,
             "img":"base64"
-        }
-        
-    },
-    "armarios":{
-        "0":{
+        },
+        "2":{
+            "type":"armario",
             "nombre":"nombre",
             "tamaño":"105x70cm",
             "color":"marron",
@@ -35,12 +35,9 @@
             "stock":false,
             "descuento":0,
             "img":"base64"
-        }
-        
-    },
-
-    "mesas":{
-        "0":{
+        },
+        "3":{
+            "type":"mesa",
             "nombre":"nombre",
             "tamaño":"100x45cm",
             "color":"naranja",
@@ -50,10 +47,9 @@
             "stock":true,
             "descuento":0.30,
             "img":"base64"
-        }
-    },
-    "estanterias":{
-        "0":{
+        },
+        "4":{
+            "type":"estanteria",
             "nombre":"nombre",
             "tamaño":"190x105cm",
             "color":"negro",
@@ -64,5 +60,6 @@
             "descuento":0.10,
             "img":"base64"
         }
+
     }
 }

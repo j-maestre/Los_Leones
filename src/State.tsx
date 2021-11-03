@@ -22,7 +22,7 @@ const initialState = {
   coordinates: "",
   user_coordinates: "no",
   segment: "recent",
-  events: []
+  articles: []
 };
 
 let reducer = (state, action) => {
@@ -33,8 +33,8 @@ let reducer = (state, action) => {
     case "SET_USER": {
       return { ...state, user: action.value };
     }
-    case "SET_EVENTS": {
-      return { ...state, events: action.value };
+    case "SET_ARTICLES": {
+      return { ...state, articles: action.value };
     }
     case "LOGOUT": {
       return { ...state, user: "" };

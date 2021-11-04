@@ -74,7 +74,7 @@ const Products = () => {
       <ProductsPreview product={productos[4]} />
 
       {/* Iteracion productos seleccionados en products preview MAP*/}
-      
+      {/* PORQUE COÑO CUANDO HAGO EL MAP ME PETA PERO SI LO PONGO APIÑON ARRIBA NO */}
       {productos.map((value,index)=>{
         // console.log("index ",index,"-> ",value)
         // <ProductsPreview product={value}  />

@@ -14,7 +14,11 @@ const Products = () => {
   const { state, dispatch } = useContext(AppContext);
   
   const productsArray = Object.values(products);
-  // dispatch ({ type: "SET_ARTICLES", value: productsArray})
+  //Si en el state no hay ningun articulo, cojo y los meto TODOS
+  if(state.articles.length==0){
+    dispatch ({ type: "SET_ARTICLES", value: products})
+  }
+
   return (
     <>
       <section className="products">

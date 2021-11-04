@@ -2,7 +2,7 @@
     "products":{
         "0":{
             "type":"silla",
-            "nombre":"nombre",
+            "nombre":"Silla gaming",
             "tamaño":"15x40cm",
             "color": "blanco",
             "material":"madera",
@@ -14,7 +14,7 @@
         },
         "1":{
             "type":"silla",
-            "nombre":"nombre",
+            "nombre":"Silla escritorio",
             "tamaño":"20x60cm",
             "color": "rojo",
             "material":"metal",

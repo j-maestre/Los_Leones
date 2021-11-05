@@ -66,8 +66,8 @@ const Products = () => {
       {/* Prueba a piñon */}
       <section className="products__images">
         {/* Iteracion productos seleccionados en products preview MAP*/}
-        {filteredSearch.map((value)=>(
-            <ProductsPreview product={value} />
+        {filteredSearch.map((value,key)=>(
+            <ProductsPreview product={value} key={"_"+key}/>
         ))}
       </section>
       <Footer/>

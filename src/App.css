@@ -2,8 +2,8 @@
     COLORS
 -------------------------------------------------------------------*/
 :root{
-  --primary-color:#fff2a9;
-  --secondary-color:#f8f7ce;
+  --primary-color:#ff9d92;
+  --secondary-color:rgb(224, 224, 224);
 }
 
 .App {

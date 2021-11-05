@@ -10,7 +10,7 @@
             "precio": 70,
             "stock": true,
             "descuento":0.20,
-            "img":"base64"
+            "img":"../../data/img/silla1.png"
         },
         "1":{
             "type":"silla",

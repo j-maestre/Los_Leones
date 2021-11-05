@@ -30,6 +30,7 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
             <div className="product_container">
                 <img src={silla} alt="image" />
                 <p>{props.product.nombre}</p>
+                <hr></hr>
             </div>
     );
 };

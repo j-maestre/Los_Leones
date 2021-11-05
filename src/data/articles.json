@@ -26,7 +26,7 @@
         },
         "2":{
             "type":"armario",
-            "nombre":"nombre",
+            "nombre":"armario gamer RGB",
             "tamaño":"105x70cm",
             "color":"marron",
             "material":"madera de pino",
@@ -38,7 +38,7 @@
         },
         "3":{
             "type":"mesa",
-            "nombre":"nombre",
+            "nombre":"mesa gamer",
             "tamaño":"100x45cm",
             "color":"naranja",
             "material":"mader de roble",
@@ -50,7 +50,7 @@
         },
         "4":{
             "type":"estanteria",
-            "nombre":"nombre",
+            "nombre":"estanteria gamer",
             "tamaño":"190x105cm",
             "color":"negro",
             "material":"madera de olivo",

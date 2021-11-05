@@ -13,12 +13,26 @@ import { AppContextProvider, AppContext } from "./State";
 // import Tabs from "./Tabs";
 import Home from './pages/Home';
 import Products from './pages/Products';
+import articles from './data/articles.json';
 import PublicRoute from './components/routes/PublicRoute';
 import './App.css';
 
+const Autoload = () => {
+  const { dispatch } = useContext(AppContext);
+  useEffect(() => {
+    // dispatch({type:'SET_STATE',value:JSON.parse(window.localStorage.getItem("persistedState"))});
+    /*PROVISIONAL. LOAD CURRENT EVENTS FROM JSON FOR ENABLE CREATE EVENTS, FAV EVENTS, ETC
+    THIS SHOULDN'T BE IN CASE OF HAVING A BACKEND*/
+    console.log("AUTOLOAAAAADDDD")
+    dispatch({type:'SET_ARTICLES',value: articles.products}) 
+    
+  },[]);
+  return (<></>);
+}
+
 const App: React.FC = () =>(
   <AppContextProvider>
-    {/* <Autoload/> */}
+    <Autoload/>
     {/* <IonApp> */}
       <Router>
       <Suspense fallback="loading">

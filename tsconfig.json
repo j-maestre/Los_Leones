@@ -18,6 +18,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react"
+  //   "no-unused-expressions": "off",
+  // "@typescript-eslint/no-unused-expressions": ["error"]
   },
   "include": [
     "src"

@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { AppContext } from "../../State";
 // import { Geolocation } from '@ionic-native/geolocation';
 
+import product_model from "./Product.model.js";
 import "./Products.css";
 import "../../css/bootstrap.min.css"
 // import EventList from "../components/Event/Event_List";
@@ -13,39 +14,36 @@ import { useTranslation } from "react-i18next";
 import products from "../../data/articles.json";
 import ProductsPreview from "./Products_Preview";
 
+
+
 const Products = () => {
   // const { dispatch } = useContext(AppContext);
   const { t } = useTranslation();
   const { state, dispatch } = useContext(AppContext);
-  let productos=[];
+  const [filteredSearch, setFilteredSearch] = useState([product_model]);
 
-  //Cojo los articulos del state y se los paso al Products Preview
-    for(let key in state.articles.products){
-      // productos.push(state.articles.products[key]);
-      // productos[key]=state.articles.products[key];
-      productos=[...productos,state.articles.products[key]];
+
+  function filterProducts(products, type="all"){
+    let productsFiltred = [...products];
+
+    if(type=="all"){
+      //Todos los productos
+      productsFiltred = productsFiltred.filter(
+        (product) => product.type
+      );
+    }else{
+      //Filtramos por type
+      productsFiltred = productsFiltred.filter(
+        (product) => product.type == type
+      );
     }
-    
-    console.log("Prueba de fuego state");
-    // console.log(state.articles.products)
-    console.log(productos);
+
+    return productsFiltred;
+  }
 
   function setArticles(type){
-    //Si he filtrado algun articulo, cojo los que quiero y los meto en el state
-    switch(type){
-      case "all":
-        dispatch ({ type: "SET_ARTICLES", value: products})
-      break;
-      case "sillas":
-
-      break;
-      case "mesas":
-
-      break;
-      case "armarios":
-
-      break;
-    }
+    const tempSillasResult = filterProducts(Object.values(state.articles),type);
+    setFilteredSearch([...tempSillasResult]);
   }
 
   return (
@@ -58,32 +56,20 @@ const Products = () => {
 
       <section className="products__menu button-group filter-button-group"> {/*text-center*/}
         <button className="products__menu-item" id="all" onClick={() => setArticles("all")}>Todo</button>
-        <button className="products__menu-item" id="sillas">Sillas</button>
-        <button className="products__menu-item" id="armarios">Armarios</button>
-        <button className="products__menu-item" id="mesas">Mesas</button>
-        <button className="products__menu-item" id="estanterias">Estanterias</button>
+        <button className="products__menu-item" id="sillas" onClick={() => setArticles("silla")}>Sillas</button>
+        <button className="products__menu-item" id="armarios" onClick={() => setArticles("armario")}>Armarios</button>
+        <button className="products__menu-item" id="mesas" onClick={() => setArticles("mesa")}>Mesas</button>
+        <button className="products__menu-item" id="estanterias" onClick={() => setArticles("estanteria")}>Estanterias</button>
 		  </section>
 
      
       {/* Prueba a piñon */}
       <section className="products__images">
-      <ProductsPreview product={productos[0]} />
-      <ProductsPreview product={productos[1]} />
-      <ProductsPreview product={productos[2]} />
-      <ProductsPreview product={productos[3]} />
-      <ProductsPreview product={productos[4]} />
-
-      {/* Iteracion productos seleccionados en products preview MAP*/}
-      {/* PORQUE COÑO CUANDO HAGO EL MAP ME PETA PERO SI LO PONGO APIÑON ARRIBA NO */}
-      {productos.map((value,index)=>{
-        // console.log("index ",index,"-> ",value)
-        // <ProductsPreview product={value}  />
-      })}
+        {/* Iteracion productos seleccionados en products preview MAP*/}
+        {filteredSearch.map((value)=>(
+            <ProductsPreview product={value} />
+        ))}
       </section>
-    
-      
-
-      
       <Footer/>
     </section>
   );

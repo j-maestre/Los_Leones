@@ -13,6 +13,7 @@ import { AppContextProvider, AppContext } from "./State";
 // import Tabs from "./Tabs";
 import Home from './pages/Home';
 import Products from './pages/Products';
+import AboutUs from "./pages/About";
 import articles from './data/articles.json';
 import PublicRoute from './components/routes/PublicRoute';
 import './App.css';
@@ -44,6 +45,7 @@ const App: React.FC = () =>(
           <PublicRoute component={ChangePassword} path="/recover/:token" exact /> */}
           <Route component={Home} path="/home"></Route>
           <Route component={Products} path="/products"></Route>
+          <Route component={AboutUs} path="/about"></Route>
             <Route
               path="/"
               render={() => <Redirect to="/home" />}

@@ -7,8 +7,6 @@
             "color": "blanco",
             "material":"madera",
             "modelo":1172,
-            "precio": 70,
-            "stock": true,
             "descuento":0.20,
             "img":"../../data/img/silla1.png"
         },
@@ -19,8 +17,6 @@
             "color": "rojo",
             "material":"metal",
             "modelo":1150,
-            "precio": 120,
-            "stock": true,
             "descuento":0.50,
             "img":"base64"
         },
@@ -31,9 +27,6 @@
             "color":"marron",
             "material":"madera de pino",
             "modelo":1348,
-            "precio":270,
-            "stock":false,
-            "descuento":0,
             "img":"base64"
         },
         "3":{
@@ -43,8 +36,6 @@
             "color":"naranja",
             "material":"mader de roble",
             "modelo":3349,
-            "precio":130,
-            "stock":true,
             "descuento":0.30,
             "img":"base64"
         },
@@ -52,12 +43,13 @@
             "type":"estanteria",
             "nombre":"estanteria gamer",
             "tamaño":"190x105cm",
-            "color":"negro",
+            "colores":{
+                "color1":"rojo",
+                "color2":"amarillo",
+                "color3":"verde"
+            },
             "material":"madera de olivo",
             "modelo":1442,
-            "precio":180,
-            "stock":true,
-            "descuento":0.10,
             "img":"base64"
         }
 

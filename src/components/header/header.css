@@ -325,6 +325,12 @@ a img.aligncenter {
     justify-content: space-around !important;
 }
 
+.img-fluid{
+    margin-left:10px;
+    margin-top:10px;
+    width: 250px;
+}
+
 
 /*------------------------------------------------------------------
     BUTTONS

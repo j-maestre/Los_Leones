@@ -6,6 +6,7 @@ import "./Home.css";
 
 import Header from "../components/header/HeaderComponent";
 import Footer from "../components/footer/Footer";
+import HomeComponent from "../components/home/HomeComponent";
 
 import { useTranslation } from "react-i18next";
 
@@ -19,42 +20,7 @@ const Home = () => {
     <section className="body">
     <section className="home">
       <Header page={t("pages.home")} />
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-      <p>Esto es el home</p>
-
- 
-      <p>ole los caracoless</p>
+      <HomeComponent page={t("pages.home")}/>
     </section>
     <Footer/>
     </section>

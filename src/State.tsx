@@ -22,6 +22,7 @@ const initialState = {
   coordinates: "",
   user_coordinates: "no",
   segment: "recent",
+  filter: "all",
   articles: []
 };
 
@@ -35,6 +36,9 @@ let reducer = (state, action) => {
     }
     case "SET_ARTICLES": {
       return { ...state, articles: action.value };
+    }
+    case "SET_FILTER":{
+      return {...state, filter:action.value};
     }
     case "LOGOUT": {
       return { ...state, user: "" };

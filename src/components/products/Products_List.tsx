@@ -22,9 +22,16 @@ const Products = () => {
   const { state, dispatch } = useContext(AppContext);
   const [filteredSearch, setFilteredSearch] = useState([product_model]);
 
+  // if(filteredSearch){
+  //   console.log("No hay naaaa----------------------");
+  //   console.log(filteredSearch)
+  // }
 
+  // filterProducts()
   function filterProducts(products, type="all"){
     let productsFiltred = [...products];
+
+    // let type=state.filter;
 
     if(type=="all"){
       //Todos los productos
@@ -42,6 +49,9 @@ const Products = () => {
   }
 
   function setArticles(type){
+
+    // dispatch({type:'SET_FILTER',value: type}) 
+
     const tempSillasResult = filterProducts(Object.values(state.articles),type);
     setFilteredSearch([...tempSillasResult]);
   }

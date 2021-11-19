@@ -4,5 +4,5 @@
 ## Alpha version
 
 ```
-https://losleonesdevelop.surge.sh/home
+[Los Leones 0.1](https://losleonesdevelop.surge.sh/home)
 ```

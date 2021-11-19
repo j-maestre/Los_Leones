@@ -15,7 +15,7 @@ type HeaderProps = {
 const About: React.FC<HeaderProps> = (props) =>{
     return(
             <div className="about_container">
-                <div className="section-title text-left">
+                <div className="section-title text-center">
                         <h1>Bienvenido a Muebles Los Leones </h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -34,12 +34,12 @@ const About: React.FC<HeaderProps> = (props) =>{
                     
                 </div>
                 <div className="about_container__image">
-                    <img src={image} className="image" alt="imagen tienda"/>
+                    <img src={image} className="image" alt="imagen tienda" width="675" height="506"/>
                 </div>
 
                 
 
-                <GoogleMaps />
+                {/* <GoogleMaps /> */}
             </div>
     );
 };

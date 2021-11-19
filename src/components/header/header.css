@@ -52,6 +52,9 @@ body.demos .section-title img {
     margin: 10px auto;
 }
 
+.home_logo:hover{
+    background-color: transparent !important;
+}
 
 
 body.demos .container-fluid {

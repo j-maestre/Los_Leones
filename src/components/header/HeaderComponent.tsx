@@ -31,9 +31,9 @@ const Header: React.FC<HeaderProps> = (props) => {
   return (
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div className="container-fluid">
-          <a className="navbar-brand js-scroll-trigger" href="#page-top">
-            <img className="img-fluid" src={logo} alt="" /> {/*IMAGEN LOGO*/ }
-          </a>
+          <NavLink className="navbar-brand js-scroll-trigger home_logo" to="home">
+            <img className="img-fluid" src={logo} alt="Logo" /> {/*IMAGEN LOGO*/ }
+          </NavLink>
           <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i className="fa fa-bars"></i>

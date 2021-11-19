@@ -53,5 +53,22 @@
             "img":"base64"
         }
 
+    },
+
+    "best_products":{
+       
+        "type1":"silla",
+        "nombre1":"Silla gaming",
+        "modelo1":1172,
+        "img1":"../../data/img/silla1.png",
+        "type2":"armario",
+        "nombre2":"Armario gamer RGB",
+        "modelo2":1348,
+        "img2":"base64",
+        "type3":"mesa",
+        "nombre3":"Mesa gamer",
+        "modelo3":3349,
+        "img3":"base64"
+        
     }
 }

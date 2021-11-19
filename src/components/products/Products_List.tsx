@@ -1,33 +1,53 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { AppContext } from "../../State";
 // import { Geolocation } from '@ionic-native/geolocation';
 
 import product_model from "./Product.model.js";
 import "./Products.css";
 import "../../css/bootstrap.min.css"
-// import EventList from "../components/Event/Event_List";
 
 import Header from "../../components/header/HeaderComponent";
 import Footer from "../../components/footer/Footer";
 
 import { useTranslation } from "react-i18next";
-import products from "../../data/articles.json";
+import AllProducts from "../../data/articles.json";
 import ProductsPreview from "./Products_Preview";
 
+type ProductsProps = {
+  product:{
+      type:string;
+      nombre:string;
+      tamaño:string;
+      color: string;
+      material:string;
+      modelo:number;
+      precio: number;
+      stock: boolean;
+      descuento:number;
+      img:string;
+  }[];
+};
 
 
-const Products = () => {
+
+const Products: React.FC<ProductsProps> = ({product}) => {
   // const { dispatch } = useContext(AppContext);
   const { t } = useTranslation();
   const { state, dispatch } = useContext(AppContext);
   const [filteredSearch, setFilteredSearch] = useState([product_model]);
+  console.log("Articles products list-> ", product)
+  console.log(product.length);
 
-  // if(filteredSearch){
-  //   console.log("No hay naaaa----------------------");
-  //   console.log(filteredSearch)
-  // }
+  
 
-  // filterProducts()
+  useEffect(() => {
+    console.log("------products-----");
+    console.log(AllProducts.products);
+    // setFilteredSearch([...props.product]);
+    setArticles("all",AllProducts.products);
+  },[]);
+
+
   function filterProducts(products, type="all"){
     let productsFiltred = [...products];
 
@@ -48,12 +68,18 @@ const Products = () => {
     return productsFiltred;
   }
 
-  function setArticles(type){
+  function setArticles(type, articles = null){
 
     // dispatch({type:'SET_FILTER',value: type}) 
-
-    const tempSillasResult = filterProducts(Object.values(state.articles),type);
-    setFilteredSearch([...tempSillasResult]);
+    if(!articles){
+      const tempSillasResult = filterProducts(Object.values(state.articles),type);
+      setFilteredSearch([...tempSillasResult]);
+    }else{
+      console.log("Hay articles, primera vez");
+      console.log(articles)
+      const tempSillasResult = filterProducts(Object.values(articles),type);
+      setFilteredSearch([...tempSillasResult]);
+    }
   }
 
   return (

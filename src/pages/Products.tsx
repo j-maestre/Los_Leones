@@ -12,14 +12,17 @@ import products from "../data/articles.json";
 
 const Products = () => {
   const { state, dispatch } = useContext(AppContext);
-  
-  const productsArray = Object.values(products);
+  // const productsArray = Object.values(products);
+
+  let articles = []; 
+  articles = [...Object.values(state.articles)];
+  console.log("Articles products.tsx-> ", articles);
 
   return (
     <>
       <section className="products">
         <Header page={"products"} />
-        <Products_List />
+        <Products_List product={articles}/>
         <Footer/>
       </section>
     </>

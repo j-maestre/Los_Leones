@@ -3,12 +3,8 @@ import { AppContext } from "../../State";
 import { Link, Redirect } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 
-import brick from "../../data/img/brick-wall.jpg";
 import silla from "../../data/img/silla1.png";
-import chairs from "../../data/img/chairs.jpg";
-import interior from "../../data/img/interior.jpg";
-import living from "../../data/img/living-room.jpg";
-import wall from "../../data/img/wall.jpg";
+
 
 type ProductsPreviewProps = {
     product:{

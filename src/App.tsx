@@ -21,10 +21,8 @@ import './App.css';
 const Autoload = () => {
   const { dispatch } = useContext(AppContext);
   useEffect(() => {
-    // dispatch({type:'SET_STATE',value:JSON.parse(window.localStorage.getItem("persistedState"))});
-    /*PROVISIONAL. LOAD CURRENT EVENTS FROM JSON FOR ENABLE CREATE EVENTS, FAV EVENTS, ETC
-    THIS SHOULDN'T BE IN CASE OF HAVING A BACKEND*/
     console.log("AUTOLOAAAAADDDD")
+    console.log(articles.products)
     dispatch({type:'SET_ARTICLES',value: articles.products}) 
     
   },[]);

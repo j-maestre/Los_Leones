@@ -85,8 +85,8 @@ const Products: React.FC<ProductsProps> = ({product}) => {
   return (
     <section className="products">
       <Header page={t("pages.products")} />
-      <div className="section-title text-center">
-        <h1>Productos</h1>
+      <div className="products-title text-center">
+        <h1 >Productos</h1>
         <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
       </div>
 

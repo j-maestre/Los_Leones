@@ -39,19 +39,19 @@ const Header: React.FC<HeaderProps> = (props) => {
             <i className="fa fa-bars"></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarResponsive">
-            <ul className="navbar-nav ml-auto">
+            <ul className="navbar-nav right">
               <li className="nav-item">
-                <NavLink className="nav-link js-scroll-trigger" to="home" activeClassName="active">Home</NavLink>
+                <NavLink className="nav-link" to="home" activeClassName="active">Home</NavLink>
               </li>
               <li className="nav-item">
-              <NavLink to="products" className="nav-link js-scroll-trigger" activeClassName="active">Products</NavLink>
+              <NavLink to="products" className="nav-link" activeClassName="active">Products</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link js-scroll-trigger" to="about" activeClassName="active">About</NavLink>
+                <NavLink className="nav-link" to="about" activeClassName="active">About</NavLink>
               </li>
               
               <li className="nav-item">
-              <NavLink className="nav-link js-scroll-trigger" to="contact" activeClassName="active">Contact Us</NavLink>
+              <NavLink className="nav-link" to="contact" activeClassName="active">Contact Us</NavLink>
               </li>
             </ul>
           </div>

@@ -33,6 +33,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "react-test-renderer": "^17.0.1",
+    "react-toastify": "^8.1.0",
     "typescript": "3.8.3"
   },
   "scripts": {

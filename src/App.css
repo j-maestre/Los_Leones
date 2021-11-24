@@ -4,6 +4,7 @@
 :root{
   --primary-color:#ffffff;
   --secondary-color:rgb(224, 224, 224);
+  --terciary-color:rgb(58,58,58);
 }
 
 .App {

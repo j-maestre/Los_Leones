@@ -34,9 +34,11 @@ p{
     color: #999;
 }
 
-.section-title{
+.products-title{
     padding: 5px;
     margin-bottom: 70px;
+    margin-left: 20px;
+    width: 100%;
 }
 
 .products__images img{

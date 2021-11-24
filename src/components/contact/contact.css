@@ -1,0 +1,116 @@
+.contact_container{
+    margin-top: 150px;
+}
+
+.contact_container button, input, optgroup, select, textarea {
+    /* margin: 0; */
+    /* font-family: inherit; */
+    /* font-size: inherit; */
+    line-height: inherit;
+}
+.form__name-email input{
+    width: 100%;
+}
+.form__name-email{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form__phone{
+    margin-right: 30px !important;
+}
+.phone{
+    width: 100%;
+    /* margin-right: 30px; */
+}
+
+.contact-form{
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+}
+.contact-form *{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.form__name-email{
+    margin-top: 30px;
+}
+
+.contact-form input{
+    border-style: none;
+    background-color: var(--secondary-color); /*rgb(190, 190, 190)*/
+    padding: 17px;
+    -webkit-transition: background 2s ease-out !important;
+    -moz-transition: background 2s ease-out !important;
+    -o-transition: background 2s ease-out !important;
+    transition: background 2s ease-out !important;
+}
+
+.form__message{
+    margin-right: 30px;
+}
+.message{
+    height: 150px;
+}
+
+
+
+.contact-form-container{
+    display: block;
+    /* border-style: solid;
+    border-color: black;
+    border-width: 2px; */
+    width: 700px;
+    max-width: 60%;
+    background-color: var(--primary-color);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form_send{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+.btn-send{
+    background: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: var(--terciary-color);
+    -webkit-box-shadow: 0 7px 10px #e6e6e6;
+    -moz-box-shadow: 0 7px 10px #e6e6e6;
+    box-shadow: 0 7px 10px #e6e6e6;
+    border: none;
+    transition: background 0.4s;
+    max-width: 200px;
+    margin-right: 30px;
+}
+
+
+
+.btn-send:hover{
+    cursor: pointer;
+    color: white;
+    background: var(--terciary-color) !important;
+}

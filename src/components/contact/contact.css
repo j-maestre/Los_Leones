@@ -44,7 +44,8 @@
 }
 
 .contact-form input{
-    border-style: none;
+    /* border-style: none; */
+    border-radius: 5px;
     background-color: var(--secondary-color); /*rgb(190, 190, 190)*/
     padding: 17px;
     -webkit-transition: background 2s ease-out !important;
@@ -113,4 +114,11 @@ input[type=number] {
     cursor: pointer;
     color: white;
     background: var(--terciary-color) !important;
+}
+
+.error{
+    border-style: solid !important;
+    border-width: 2px !important;
+    border-color: red !important;
+    border-radius: 5px !important;
 }

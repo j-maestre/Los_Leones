@@ -4,7 +4,7 @@ import { AppContext } from "../State";
 
 // import "./Products.css";
 import "../css/bootstrap.min.css"
-import Contact from '../components/contact/ContactComponent';
+import { ContactComponent } from '../components/contact/ContactComponent';
 
 import Header from "../components/header/HeaderComponent";
 import Footer from "../components/footer/Footer";
@@ -19,7 +19,7 @@ const ContactUs = () => {
     <>
       <section className="Contact">
         <Header page={"contact"} />
-        <Contact page={'contact'} />
+        <ContactComponent />
         <Footer/>
       </section>
     </>

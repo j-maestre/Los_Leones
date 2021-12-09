@@ -1,4 +1,4 @@
-import { IonFooter, IonTitle, IonToolbar } from '@ionic/react';
+// import { IonFooter, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
 import './footer.css';
 

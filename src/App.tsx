@@ -19,6 +19,8 @@ import articles from './data/articles.json';
 import PublicRoute from './components/routes/PublicRoute';
 import './App.css';
 
+
+
 const Autoload = () => {
   const { dispatch } = useContext(AppContext);
   useEffect(() => {
@@ -61,5 +63,11 @@ const App: React.FC = () =>(
     {/* </IonApp> */}
   </AppContextProvider>
 );
+
+// App.use(function(req, res, next) {
+//   res.header("Access-Control-Allow-Origin", "*");
+//   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//   next();
+// });
 
 export default App;

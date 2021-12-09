@@ -8,6 +8,12 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
+// const cors = require('cors');
+
+const nodemailer = require("nodemailer");
+
+  
+  
 
 export class ContactComponent extends React.Component {
 
@@ -38,14 +44,97 @@ export class ContactComponent extends React.Component {
         }else{
             Isvalid = false;
         }
-        Isvalid?toast.success("Mensaje enviado!") && this.SendEmail():toast.error("Complete los campos");
+        if(Isvalid){
+            this.main();
+            // this.SendEmail();
+        }else{
+            toast.error("Complete los campos");
+        }
+        //Isvalid?toast.success("Mensaje enviado!") && this.SendEmail():toast.error("Complete los campos");
  
     } 
 
+    
+
+// async..await is not allowed in global scope, must use a wrapper
+    main = async () =>{
+        console.log("Node mailer");
+        console.log(nodemailer);
+        nodemailer.headersList = {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+
+        console.log("ENVIANDO MAIL");
+        // Generate test SMTP service account from ethereal.email
+        // Only needed if you don't have a real mail account for testing
+        console.log("Antes de test acount");
+        //let testAccount = await nodemailer.createTestAccount();
+        console.log("Despues de test acount");
+
+        console.log("Antes de transporter");
+        // create reusable transporter object using the default SMTP transport
+        let transporter = nodemailer.createTransport({
+            service: "Gmail",
+            host: "smtp.ethereal.email",
+            port: 3000,
+            secure: false, // true for 465, false for other ports
+            auth: {
+                user: "losleonesweb@gmail.com",
+                pass: "a123456789@",
+                //user: testAccount.user, // generated ethereal user
+                //pass: testAccount.pass, // generated ethereal password
+            }
+        });
+
+        console.log("Despues de transporter");
+        
+        let mailOptions = {
+            from: 'losleonesweb@gmail.com', // sender address
+            to: "losleonesweb@gmail.com", // list of receivers
+            subject: "Hello ✔", // Subject line
+            text: "Hello world?", // plain text body
+            html: "<b>Hello world?</b>", // html body
+        }
+        console.log("Antes de info");
+        // send mail with defined transport object
+        let info = await transporter.sendMail(mailOptions, function(error,info){
+            console.log("Dentro de info sendEmail");
+            if (error){
+                console.log("Error");
+                console.log(error);
+                // res.send(500, err.message);
+            } else {
+                console.log("Email sent");
+                // res.status(200).jsonp(req.body);
+                console.log("Message sent: %s", info.messageId);
+                // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+            
+                // Preview only available when sending through an Ethereal account
+                console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
+                // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
+            }
+        });
+        console.log("Despues de info");
+    
+    
+    }
+
     SendEmail = () =>{
         //Temporal
-        //Mailgun incoming...
-        // alert("enviar mail...");
+        //Mailgun or Firebase incoming...
+        //Async function sendEmail
+        // main();
+        // let envio = main().catch(console.error);
+        // if(envio){
+        //     console.log(nodemailer);
+        //     console.log(envio);
+        //     toast.error("Error en el envio del mensaje");
+        // }else{
+        //     toast.success("Mensaje enviado!");
+        // }
+
     }
 
     render(){

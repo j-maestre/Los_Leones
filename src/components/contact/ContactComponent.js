@@ -9,11 +9,12 @@ import 'react-toastify/dist/ReactToastify.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 // const cors = require('cors');
-
-const nodemailer = require("nodemailer");
-
-  
-  
+import{ init } from 'emailjs-com';
+import emailjs from 'emailjs-com';
+import { EMAIL_USERID } from '../../secrets.js';
+import { EMAIL_IDSERVICE } from '../../secrets.js';
+import { EMAIL_TEMPLATEID } from '../../secrets.js';
+import { resolve } from "dns";
 
 export class ContactComponent extends React.Component {
 
@@ -37,104 +38,47 @@ export class ContactComponent extends React.Component {
         if(name.value && email.value && phone.value && message.value){
             event.preventDefault();
             Isvalid = true;
-            name.value = "";
-            email.value = "";
-            phone.value = "";
-            message.value = "";
+            
         }else{
             Isvalid = false;
         }
-        if(Isvalid){
-            this.main();
-            // this.SendEmail();
-        }else{
-            toast.error("Complete los campos");
-        }
-        //Isvalid?toast.success("Mensaje enviado!") && this.SendEmail():toast.error("Complete los campos");
+    
+        Isvalid?this.SendEmail():toast.error("Complete los campos");
  
     } 
 
     
 
-// async..await is not allowed in global scope, must use a wrapper
-    main = async () =>{
-        console.log("Node mailer");
-        console.log(nodemailer);
-        nodemailer.headersList = {
-            "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "*",
-            "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
-        }
 
-        console.log("ENVIANDO MAIL");
-        // Generate test SMTP service account from ethereal.email
-        // Only needed if you don't have a real mail account for testing
-        console.log("Antes de test acount");
-        //let testAccount = await nodemailer.createTestAccount();
-        console.log("Despues de test acount");
+    SendEmail = async () =>{
 
-        console.log("Antes de transporter");
-        // create reusable transporter object using the default SMTP transport
-        let transporter = nodemailer.createTransport({
-            service: "Gmail",
-            host: "smtp.ethereal.email",
-            port: 3000,
-            secure: false, // true for 465, false for other ports
-            auth: {
-                user: "losleonesweb@gmail.com",
-                pass: "a123456789@",
-                //user: testAccount.user, // generated ethereal user
-                //pass: testAccount.pass, // generated ethereal password
-            }
-        });
-
-        console.log("Despues de transporter");
-        
-        let mailOptions = {
-            from: 'losleonesweb@gmail.com', // sender address
-            to: "losleonesweb@gmail.com", // list of receivers
-            subject: "Hello ✔", // Subject line
-            text: "Hello world?", // plain text body
-            html: "<b>Hello world?</b>", // html body
-        }
-        console.log("Antes de info");
-        // send mail with defined transport object
-        let info = await transporter.sendMail(mailOptions, function(error,info){
-            console.log("Dentro de info sendEmail");
-            if (error){
-                console.log("Error");
-                console.log(error);
-                // res.send(500, err.message);
-            } else {
-                console.log("Email sent");
-                // res.status(200).jsonp(req.body);
-                console.log("Message sent: %s", info.messageId);
-                // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+      let templateParams = {
+        message: this.message.value,
+        phone: this.phone.value,
+        email: this.email.value,
+        from_name: this.name.value
+      }
+      
+      await init(EMAIL_USERID);
+      let succes = true;
+        try{
+            emailjs.send(EMAIL_IDSERVICE, EMAIL_TEMPLATEID, templateParams, EMAIL_USERID)
+            .then(function(response) {
+                toast.success("Mensaje enviado!");
+            }, function(error) {
+                succes = false;
+                toast.error("Error en el envio");
+            });
             
-                // Preview only available when sending through an Ethereal account
-                console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
-                // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
-            }
-        });
-        console.log("Despues de info");
-    
-    
-    }
-
-    SendEmail = () =>{
-        //Temporal
-        //Mailgun or Firebase incoming...
-        //Async function sendEmail
-        // main();
-        // let envio = main().catch(console.error);
-        // if(envio){
-        //     console.log(nodemailer);
-        //     console.log(envio);
-        //     toast.error("Error en el envio del mensaje");
-        // }else{
-        //     toast.success("Mensaje enviado!");
-        // }
-
+        }catch(error){
+            toast.error("Algo no salió como se esperaba...");
+        }
+        if(succes){
+            this.message.value = "";
+            this.phone.value = "";
+            this.email.value = "";
+            this.name.value = "";
+        }
     }
 
     render(){

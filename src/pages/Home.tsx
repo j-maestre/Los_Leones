@@ -17,6 +17,7 @@ const Home = () => {
   // const { dispatch } = useContext(AppContext);
   const { t } = useTranslation();
   const { state, dispatch } = useContext(AppContext);
+  
 
   // let articles = [best_products_model]; 
   let articles = data.best_products;
@@ -27,7 +28,7 @@ const Home = () => {
     <section className="body">
     <section className="home">
       <Header page={t("pages.home")} />
-      <HomeComponent best_products={articles}/>
+      <HomeComponent best_products={articles} home_products={data.home_products}/>
     </section>
     <Footer/>
     </section>

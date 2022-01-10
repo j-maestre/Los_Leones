@@ -1,34 +1,6 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .home_container{
     margin-top: 160px;
+    margin-bottom: 50px;
     /* width: 40%; */
 }
 
@@ -45,4 +17,10 @@
 .slider-wrapper, .axis-horizontal{
     max-height: 600px !important;
     height: auto;
+}
+.home_products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }

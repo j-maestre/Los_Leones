@@ -1,48 +1,117 @@
 {
     "products":{
         "0":{
-            "type":"silla",
-            "nombre":"Silla gaming",
-            "tamaño":"15x40cm",
-            "color": "blanco",
-            "material":"madera",
-            "modelo":1172,
+            "type":"mesa",
+            "nombre":"Mesa comedor X-loft fija",
+            "tamano":"76x140cm",
+            "color":"Negro, blanco",
+            "material":"Roble nordish, Roble american",
+            "descripcion":"Madera roble / Patas metálicas",
+            "modelo":0,
             "descuento":0.20,
-            "img":"../../data/img/silla1.png"
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-000.png"
         },
         "1":{
-            "type":"silla",
-            "nombre":"Silla escritorio",
-            "tamaño":"20x60cm",
-            "color": "rojo",
-            "material":"metal",
-            "modelo":1150,
+            "type":"mesa",
+            "nombre":"Mesa comedor Loft fija.",
+            "tamano":"75x160cm",
+            "color": "Blanco, Negro",
+            "material":"Roble nordish, Roble american",
+            "descripcion":"Madera roble / Patas metálicas",
+            "modelo":1,
             "descuento":0.50,
-            "img":"base64"
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-001.png"
         },
         "2":{
-            "type":"armario",
-            "nombre":"armario gamer RGB",
-            "tamaño":"105x70cm",
-            "color":"marron",
-            "material":"madera de pino",
-            "modelo":1348,
-            "img":"base64"
+            "type":"mesa",
+            "nombre":"Mesa comedor X-Loft fija",
+            "tamano":"76x160cm",
+            "color": "Blanco, Negro",
+            "material":"Roble nordish, Roble american",
+            "descripcion":"Madera roble / Patas metálicas",
+            "modelo":2,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-002.png"
         },
         "3":{
             "type":"mesa",
-            "nombre":"mesa gamer",
-            "tamaño":"100x45cm",
-            "color":"naranja",
-            "material":"mader de roble",
-            "modelo":3349,
-            "descuento":0.30,
-            "img":"base64"
+            "nombre":"Mesa comedor Natural fija",
+            "tamano":"76x140cm",
+            "color": "Blanco, Negro",
+            "material":"Roble nordish, Roble american",
+            "descripcion":"Madera roble / Patas metálicas",
+            "modelo":3,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-003.png"
         },
         "4":{
+            "type":"mesa",
+            "nombre":"Mesa comedor Natural extensible",
+            "tamano":"76x140-180cm",
+            "color": "Blanco, Negro",
+            "material":"Roble nordish, Roble american",
+            "descripcion":"Madera roble / Esgtructura metálica",
+            "modelo":3,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-004.png"
+        },
+        "5":{
+            "type":"mesa",
+            "nombre":"Mesa comedor Victory extensible",
+            "tamano":"76x120-160cm",
+            "color": "Roble, Negro",
+            "material":"Metal, Roble",
+            "descripcion":"Papel laminado color roble",
+            "modelo":3,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-005.png"
+        },
+        "6":{
+            "type":"mesa",
+            "nombre":"Mesa comedor Jacky",
+            "tamano":"76x120cm",
+            "color": "Negro",
+            "material":"Metal",
+            "descripcion":"Tapa estratificado color roble",
+            "modelo":3,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-006.png"
+        },
+        "7":{
+            "type":"mesa",
+            "nombre":"Mesa comedor Branch fija",
+            "tamano":"76x160cm",
+            "color": "Negro / Nogal",
+            "material":"Metal",
+            "descripcion":"Papel laminado color nogal / Patas metálicas color negro",
+            "modelo":3,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-007.png"
+        },
+        "8":{
+            "type":"mesa",
+            "nombre":"Mesa comedor Branch Extensible",
+            "tamano":"77x140-180cm",
+            "color": "Negro / Nogal",
+            "material":"Metal",
+            "descripcion":"Papel laminado color nogal / Patas metálicas color negro",
+            "modelo":3,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-008.png"
+        },
+        "999":{
+            "type":"armario",
+            "nombre":"armario gamer RGB",
+            "tamano":"105x70cm",
+            "color":"marron",
+            "material":"madera de pino",
+            "modelo":1348,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/silla1.png"
+        },
+        "998":{
             "type":"estanteria",
             "nombre":"estanteria gamer",
-            "tamaño":"190x105cm",
+            "tamano":"190x105cm",
             "colores":{
                 "color1":"rojo",
                 "color2":"amarillo",
@@ -50,11 +119,10 @@
             },
             "material":"madera de olivo",
             "modelo":1442,
-            "img":"base64"
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/silla1.png"
         }
 
     },
-
     "best_products":{
        
         "type1":"silla",
@@ -68,7 +136,22 @@
         "type3":"mesa",
         "nombre3":"Mesa gamer",
         "modelo3":3349,
-        "img3":"base64"
+        "img3":"https://raw.githubusercontent.com/los-leones/images/master/sillas/silla1.png"
         
+    },
+    "home_products":{
+
+            "type1":"mesa",
+            "nombre1":"Mesa comedor Branch Extensible",
+            "tamano1":"77x140-180cm",
+            "img1":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-008.png",
+            "type2":"mesa",
+            "nombre2":"Mesa comedor Natural fija",
+            "tamano2":"76x140cm",
+            "img2":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-003.png",
+            "type3":"mesa",
+            "nombre3":"Mesa comedor Natural extensible",
+            "tamano3":"76x140-180cm",
+            "img3":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-004.png"
     }
 }

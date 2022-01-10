@@ -10,7 +10,7 @@ type ProductsPreviewProps = {
     product:{
         type:string;
         nombre:string;
-        tamaño:string;
+        tamano:string;
         color: string;
         material:string;
         modelo:number;
@@ -24,7 +24,13 @@ type ProductsPreviewProps = {
 const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
     return(
             <div className="product_container">
-                <img src={silla} alt="image" />
+                <div className="product_container_img">
+                    <img src={props.product.img} alt="image" />
+                    <div className="dimension">
+                        <p>{props.product.tamano}</p>
+                    </div>
+                </div>
+                
                 <p>{props.product.nombre}</p>
                 <hr></hr>
             </div>

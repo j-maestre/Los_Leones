@@ -1,9 +1,10 @@
 const product_model = {
     type:"",
     nombre:"",
-    tamaño:"",
+    tamano:"",
     color:"",
     material:"",
+    descripcion:"",
     modelo:0,
     precio: 0,
     stock: true,

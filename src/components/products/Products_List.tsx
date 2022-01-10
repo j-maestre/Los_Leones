@@ -20,6 +20,7 @@ type ProductsProps = {
       tamaño:string;
       color: string;
       material:string;
+      descripcion:string;
       modelo:number;
       precio: number;
       stock: boolean;
@@ -98,8 +99,6 @@ const Products: React.FC<ProductsProps> = ({product}) => {
         <button className="products__menu-item" id="estanterias" onClick={() => setArticles("estanteria")}>Estanterias</button>
 		  </section>
 
-     
-      {/* Prueba a piñon */}
       <section className="products__images">
         {/* Iteracion productos seleccionados en products preview MAP*/}
         {filteredSearch.map((value,key)=>(

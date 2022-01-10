@@ -1,12 +1,14 @@
 import React, { useContext, useState, useEffect } from "react";
 import { AppContext } from "../../State";
-import { Link, Redirect } from "react-router-dom";
+import { Link, Redirect,NavLink } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 import './home.css';
 import product_model from "../products/Product.model.js";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+
+import ProductsPreview from "../products/Products_Preview";
 
 import img1 from "../../data/img/furniture1.jpg";
 import img2 from "../../data/img/furniture2.jpg";
@@ -30,6 +32,20 @@ type HomeProps = {
         type3:string,
         nombre3:string,
         modelo3:number,
+        img3:string
+    };
+    home_products:{
+        type1:string,
+        nombre1:string,
+        tamano1:string,
+        img1:string,
+        type2:string,
+        nombre2:string,
+        tamano2:string,
+        img2:string,
+        type3:string,
+        nombre3:string,
+        tamano3:string,
         img3:string
     };
 };
@@ -64,6 +80,24 @@ const HomeComponent: React.FC<HomeProps> = (props) =>{
                             <p className="legend">{best_products.nombre3}</p>
                         </div>
                     </Carousel>
+                </div>
+                <h2 className="text-center">Algunos de nuestros productos</h2>
+                <div className="home_products">
+                <NavLink to="products" className="nav-link" activeClassName="active">
+                    <div className="home_product">
+                        <img src={props.home_products.img1}/>
+                    </div>
+                </NavLink>
+                <NavLink to="products" className="nav-link" activeClassName="active">
+                    <div className="home_product">
+                        <img src={props.home_products.img2}/>
+                    </div>
+                </NavLink>
+                <NavLink to="products" className="nav-link" activeClassName="active">
+                    <div className="home_product">
+                        <img src={props.home_products.img3}/>
+                    </div>
+                </NavLink>
                 </div>
                 
             </div>

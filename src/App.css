@@ -45,3 +45,12 @@
     transform: rotate(360deg);
   }
 }
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color: var(--secondary-color);
+  height: 1px;
+}

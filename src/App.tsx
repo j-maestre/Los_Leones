@@ -20,12 +20,9 @@ import PublicRoute from './components/routes/PublicRoute';
 import './App.css';
 
 
-
 const Autoload = () => {
   const { dispatch } = useContext(AppContext);
   useEffect(() => {
-    console.log("AUTOLOAAAAADDDD")
-    console.log(articles.products)
     dispatch({type:'SET_ARTICLES',value: articles.products}) 
     
   },[]);

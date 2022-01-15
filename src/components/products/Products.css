@@ -79,7 +79,6 @@ p{
 }
 
 .dimension{
-    /* visibility: hidden; */
     opacity: 0;
     transition: opacity 0.5s;
     position: relative;
@@ -95,7 +94,6 @@ p{
     left: 15%; */
 }
 .product_container img:hover + .dimension{
-    visibility: visible;
     opacity: 1;    
 }
 .product_container img{

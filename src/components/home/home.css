@@ -24,3 +24,26 @@
     flex-wrap: nowrap;
     justify-content: space-around;
 }
+
+.home_product img{
+    max-width: 540px;
+    width: 540px;
+    transition: content 1s;
+
+}
+/* .one img{
+    background-image: url("https://raw.githubusercontent.com/los-leones/images/master/home/best/best_00.png");
+} */
+
+
+
+.background{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+
+.home_product:hover .background{
+    opacity: 1;
+}

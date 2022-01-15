@@ -20,7 +20,7 @@ const Home = () => {
   
 
   // let articles = [best_products_model]; 
-  let articles = data.best_products;
+  let articles = data.slider;
 
   
 
@@ -28,7 +28,7 @@ const Home = () => {
     <section className="body">
     <section className="home">
       <Header page={t("pages.home")} />
-      <HomeComponent best_products={articles} home_products={data.home_products}/>
+      <HomeComponent slider={articles} home_products={data.home_products}/>
     </section>
     <Footer/>
     </section>

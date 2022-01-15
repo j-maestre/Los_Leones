@@ -218,7 +218,7 @@
             "descripcion":"Taburete alto metálico",
             "modelo":1,
             "descuento":0.50,
-            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/01-000.png"
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-000.png"
         },
         "20":{
             "type":"silla",
@@ -229,7 +229,7 @@
             "descripcion":"Patas metálicas color negro",
             "modelo":1,
             "descuento":0.50,
-            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/01-001.png"
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-001.png"
         },
         "21":{
             "type":"silla",
@@ -240,7 +240,7 @@
             "descripcion":"Madera de roble / Patas metálicas",
             "modelo":2,
             "descuento":0.50,
-            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/01-002.png"
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-002.png"
         },
         "22":{
             "type":"silla",
@@ -251,7 +251,7 @@
             "descripcion":"Silla comedor metálica",
             "modelo":0,
             "descuento":0.50,
-            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/01-003.png"
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-003.png"
         },
         "23":{
             "type":"silla",
@@ -262,7 +262,7 @@
             "descripcion":"Silla comedor curve tapizada",
             "modelo":0,
             "descuento":0.50,
-            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/01-004.png"
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-004.png"
         },
         "24":{
             "type":"silla",
@@ -273,7 +273,7 @@
             "descripcion":"Silla comedor tapizada",
             "modelo":0,
             "descuento":0.50,
-            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/01-005.png"
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-005.png"
         },
         "25":{
             "type":"silla",
@@ -284,7 +284,7 @@
             "descripcion":"Silla comedor tapizada con patín",
             "modelo":0,
             "descuento":0.50,
-            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/01-006.png"
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-006.png"
         },
         "26":{
             "type":"silla",
@@ -295,7 +295,7 @@
             "descripcion":"Silla comedor tapizada Velvet",
             "modelo":0,
             "descuento":0.50,
-            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/01-007.png"
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-007.png"
         },
         "27":{
             "type":"silla",
@@ -306,7 +306,7 @@
             "descripcion":"Silla comedor tapizada",
             "modelo":0,
             "descuento":0.50,
-            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/01-008.png"
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-008.png"
         },
         "28":{
             "type":"silla",
@@ -317,7 +317,854 @@
             "descripcion":"Silla comedor Craft",
             "modelo":0,
             "descuento":0.50,
-            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/01-009.png"
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-009.png"
+        },
+        "29":{
+            "type":"silla",
+            "nombre":"Silla comedor Bistro",
+            "tamano":"84x48cm",
+            "color": "Negro / Blanco / Gris",
+            "material":"Madera haya",
+            "descripcion":"Carcasa plastica, asiento tapizado, patas en madera haya",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-010.png"
+        },
+        "30":{
+            "type":"silla",
+            "nombre":"Silla comedor París",
+            "tamano":"82x45cm",
+            "color": "Blanco / Gris",
+            "material":"Madera haya",
+            "descripcion":"Carcasa plastica, patas en madera haya",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-011.png"
+        },
+        "31":{
+            "type":"silla",
+            "nombre":"Silla comedor Niza",
+            "tamano":"98x43cm",
+            "color": "Chocolate / Negro / Blanco / Gris",
+            "material":"Tex / Símil piel / Tapiz",
+            "descripcion":"Silla comedor tapizada, estructura metálica",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-012.png"
+        },
+        "32":{
+            "type":"mesa",
+            "nombre":"Mesa centro Loft elevable",
+            "tamano":"47'5x120cm",
+            "color": "Negro / Blanco",
+            "material":"Roble Nordish / Roble American / Metal",
+            "descripcion":"Madera de roble y cajón interior portaobjetos. Estructura metálica",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-019.png"
+        },
+        "33":{
+            "type":"mesa",
+            "nombre":"Mesa centro Natural",
+            "tamano":"43'5x120cm",
+            "color": "Negro / Blanco",
+            "material":"Roble Nordish / Roble American / Metal",
+            "descripcion":"Madera de roble. Patas metálica",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-020.png"
+        },
+        "34":{
+            "type":"mesa",
+            "nombre":"Mesa centro elevable Up - Down",
+            "tamano":"30-76x100-114cm",
+            "color": "Negro / Blanco",
+            "material":"Roble / Nogal",
+            "descripcion":"Elevable y extensible, estructura metálica, elevación por gas",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-021.png"
+        },
+        "35":{
+            "type":"mesa",
+            "nombre":"Mesa centro con estante Kaira",
+            "tamano":"42x90cm",
+            "color": "Blanco",
+            "material":"Madera",
+            "descripcion":"Tapa y estante melamina color blanco. Patas en madera",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-022.png"
+        },
+        "36":{
+            "type":"mesa",
+            "nombre":"Mesa centro Eira 2 piezas",
+            "tamano":"42x60cm / 35x42cm",
+            "color": "Blanco",
+            "material":"Madera",
+            "descripcion":"Patas en madera",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-023.png"
+        },
+        "37":{
+            "type":"mesa",
+            "nombre":"Mesa rincón / Mesilla Lena",
+            "tamano":"49x49cm",
+            "color": "Blanco",
+            "material":"Madera",
+            "descripcion":"Patas en madera",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-024.png"
+        },
+        "38":{
+            "type":"estanteria",
+            "nombre":"Estantería alta Plank",
+            "tamano":"180x150cm",
+            "color": "Roble",
+            "material":"Roble Nordish / Roble American",
+            "descripcion":"Estructura metálica color negro",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-000.png "
+        },
+        "39":{
+            "type":"estanteria",
+            "nombre":"Estantería baja Plank",
+            "tamano":"80x120cm",
+            "color": "Roble",
+            "material":"Roble Nordish / Roble American",
+            "descripcion":"Estructura metálica color negro",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-001.png"
+        },
+        "40":{
+            "type":"estanteria",
+            "nombre":"Mueble TV Plank",
+            "tamano":"45x150cm",
+            "color": "Roble",
+            "material":"Roble Nordish / Roble American",
+            "descripcion":"Estructura metálica color negro",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-002.png"
+        },
+        "41":{
+            "type":"estanteria",
+            "nombre":"Consola Natural",
+            "tamano":"80x90cm",
+            "color": "Negro / Blanco",
+            "material":"Roble Nordish / Roble American",
+            "descripcion":"Madera de roble, estructura metálica y estante interior símil cuero",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-003.png"
+        },
+        "42":{
+            "type":"estanteria",
+            "nombre":"Consola Industrial",
+            "tamano":"75x150cm",
+            "color": "Roble / Negro",
+            "material":"Roble Nordish / Roble American",
+            "descripcion":"Madera de roble, estructura metálica de color negro",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-004.png"
+        },
+        "43":{
+            "type":"estanteria",
+            "nombre":"Mueble TV Industrial",
+            "tamano":"47x150cm",
+            "color": "Roble / Negro",
+            "material":"Roble Nordish / Roble American",
+            "descripcion":"Madera de roble, estructura metálica de color negro",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-005.png"
+        },
+        "44":{
+            "type":"estanteria",
+            "nombre":"Mesa centro Industrial",
+            "tamano":"46x100cm",
+            "color": "Roble / Negro",
+            "material":"Roble Nordish / Roble American",
+            "descripcion":"Madera de roble, estructura metálica de color negro",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-006.png"
+        },
+        "46":{
+            "type":"mesa",
+            "nombre":"Mesilla 1 cajón Industrial",
+            "tamano":"53x45cm",
+            "color": "Roble / Negro",
+            "material":"Roble Nordish / Roble American",
+            "descripcion":"Madera de roble, estructura metálica de color negro",
+            "modelo":3,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-025.png"
+        },
+        "47":{
+            "type":"otros",
+            "nombre":"Cabecero cama Industrial",
+            "tamano":"125x100cm",
+            "color": "Roble",
+            "material":"Roble Nordish / Roble American",
+            "descripcion":"Madera de roble, patas metálicas de color negro",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-000.png"
+        },
+        "48":{
+            "type":"otros",
+            "nombre":"Perchero industrial",
+            "tamano":"17x69cm",
+            "color": "Roble",
+            "material":"Roble Nordish / Roble American",
+            "descripcion":"Madera de roble, colgados metálicos de color negro",
+            "modelo":1,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-001.png"
+        },
+        "49":{
+            "type":"estanteria",
+            "nombre":"Consola baja Industrial",
+            "tamano":"52x100cm",
+            "color": "Roble",
+            "material":"Roble Nordish / Roble American",
+            "descripcion":"Madera de roble, estructura metálica de color negro",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-008.png"
+        },
+        "50":{
+            "type":"mesa",
+            "nombre":"Mesa centro Pixie",
+            "tamano":"76x140cm",
+            "color": "Pino",
+            "material":"Pino reciclado",
+            "descripcion":"Patas madera color negro",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-026.png"
+        },
+        "51":{
+            "type":"mesa",
+            "nombre":"Mesa centro Pixie",
+            "tamano":"43x120cm",
+            "color": "Pino",
+            "material":"Pino reciclado",
+            "descripcion":"Patas madera color negro, 2 cajones",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-027.png"
+        },
+        "52":{
+            "type":"estanteria",
+            "nombre":"Mueble TV 130 cm Pixie",
+            "tamano":"48x130cm",
+            "color": "Pino",
+            "material":"Pino reciclado",
+            "descripcion":"Patas madera color negro, 2 cajones",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-008.png"
+        },
+        "53":{
+            "type":"mesa",
+            "nombre":"Mesilla Pixie",
+            "tamano":"50x55cm",
+            "color": "Pino",
+            "material":"Pino reciclado",
+            "descripcion":"Patas madera color negro",
+            "modelo":3,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-028.png"
+        },
+        "54":{
+            "type":"otros",
+            "nombre":"Cabecero 160 cm Pixie.",
+            "tamano":"90x160cm",
+            "color": "Pino",
+            "material":"Pino reciclado",
+            "descripcion":"Madera de pino reciclado",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-002.png"
+        },
+        "55":{
+            "type":"estanteria",
+            "nombre":"Estante hexagonal Pixie",
+            "tamano":"44x51cm",
+            "color": "Pino",
+            "material":"Pino reciclado",
+            "descripcion":"Madera de pino reciclado",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-009.png"
+        },
+        "56":{
+            "type":"otros",
+            "nombre":"Pizarra Pixie",
+            "tamano":"70x50cm",
+            "color": "Pino",
+            "material":"Pino reciclado",
+            "descripcion":"Madera de pino reciclado",
+            "modelo":2,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-003.png"
+        },
+        "57":{
+            "type":"mesa",
+            "nombre":"Consola Pixie",
+            "tamano":"70x50cm",
+            "color": "Pino",
+            "material":"Pino reciclado",
+            "descripcion":"Patas madera color negro, dos cajones",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-029.png"
+        },
+        "58":{
+            "type":"estanteria",
+            "nombre":"Estantería 3 cajones Smart",
+            "tamano":"182x75cm",
+            "color": "Blanco natural",
+            "material":"Madera",
+            "descripcion":"6 estantes, 3 cajones",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-010.png"
+        },
+        "59":{
+            "type":"mesa",
+            "nombre":"Tocador con espejo Diva",
+            "tamano":"133x80cm",
+            "color": "Blanco natural",
+            "material":"Madera",
+            "descripcion":"3 cajones color blanco, patas en madera",
+            "modelo":4,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-030.png"
+        },
+        "60":{
+            "type":"otros",
+            "nombre":"Espejo joyero de pie",
+            "tamano":"155x36cm",
+            "color": "Blanco",
+            "material":"Madera",
+            "descripcion":"Cierre con llave, interior en velvet negro",
+            "modelo":2,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-004.png"
+        },
+        "61":{
+            "type":"otros",
+            "nombre":"Espejo joyero colgar Marilyn",
+            "tamano":"120x36cm",
+            "color": "Blanco",
+            "material":"Madera",
+            "descripcion":"Cierre con llave, interior en velvet negro",
+            "modelo":2,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-005.png"
+        },
+        "62":{
+            "type":"otros",
+            "nombre":"Espejo joyero colgar Charlize",
+            "tamano":"120x36cm",
+            "color": "Blanco",
+            "material":"Madera",
+            "descripcion":"Cierre con llave, luz interior led, interior en velvet negro",
+            "modelo":2,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-006.png"
+        },
+        "63":{
+            "type":"mesa",
+            "nombre":"Mesa comedor universal",
+            "tamano":"74x140cm",
+            "color": "Transparente",
+            "material":"Cristal templado",
+            "descripcion":"Cristal templado transparente",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-031.png"
+        },
+        "64":{
+            "type":"mesa",
+            "nombre":"Mesa comedor Thunder",
+            "tamano":"75x150cm",
+            "color": "Transparente",
+            "material":"Cristal templado",
+            "descripcion":"Cristal templado transparente",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-032.png"
+        },
+        "65":{
+            "type":"mesa",
+            "nombre":"Mesa comedor Thunder redonda",
+            "tamano":"75x100cm",
+            "color": "Transparente",
+            "material":"Cristal templado",
+            "descripcion":"Cristal templado transparente",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-033.png"
+        },
+        "66":{
+            "type":"mesa",
+            "nombre":"Mesa comedor fija Dalí",
+            "tamano":"74x120cm",
+            "color": "Transparente",
+            "material":"Cristal templado",
+            "descripcion":"Cristal templado transparente",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-034.png"
+        },
+        "67":{
+            "type":"mesa",
+            "nombre":"Mesa comedor Danesa redonda",
+            "tamano":"75x100cm",
+            "color": "Transparente",
+            "material":"Cristal templado",
+            "descripcion":"Cristal templado transparente",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-035.png"
+        },
+        "68":{
+            "type":"mesa",
+            "nombre":"Mesa comedor cristal Clever",
+            "tamano":"75x120/140cm",
+            "color": "Transparente",
+            "material":"Cristal templado",
+            "descripcion":"Cristal templado transparente, patas imitación madera de roble",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-036.png"
+        },
+        "69":{
+            "type":"mesa",
+            "nombre":"Mesa comedor fija Cross",
+            "tamano":"75x160cm",
+            "color": "Transparente",
+            "material":"Cristal templado",
+            "descripcion":"Cristal templado transparente, patas metálicas color blanco",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-037.png"
+        },
+        "70":{
+            "type":"mesa",
+            "nombre":"Mesa comedor redonda Gina",
+            "tamano":"75x110cm",
+            "color": "Blanco / Negro",
+            "material":"Cristal templado",
+            "descripcion":"Tapa DM lacado mate, kit inferior metálico",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-038.png"
+        },
+        "71":{
+            "type":"mesa",
+            "nombre":"Mesa comedor ext. Milán",
+            "tamano":"75x110-170cm",
+            "color": "Blanco / Gris",
+            "material":"Cristal templado",
+            "descripcion":"Extensible, pintura epoxi",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-039.png"
+        },
+        "72":{
+            "type":"silla",
+            "nombre":"Silla comedor Arco",
+            "tamano":"104x42cm",
+            "color": "Negro / Blanco / Visión",
+            "material":"Símil piel",
+            "descripcion":"Tejido símil piel, patas metálicas cromadas",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-013.png"
+        },
+        "73":{
+            "type":"silla",
+            "nombre":"Silla comedor Comet",
+            "tamano":"95x43cm",
+            "color": "Negro / Blanco",
+            "material":" Símil piel",
+            "descripcion":"Tejido símil piel, patín metálico cromado",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-014.png"
+        },
+        "74":{
+            "type":"silla",
+            "nombre":"Silla comedor Diamond",
+            "tamano":"87x45cm",
+            "color": "Blanco",
+            "material":"Símil piel",
+            "descripcion":"Tejido símil piel, patas metálicas cromadas",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-015.png"
+        },
+        "75":{
+            "type":"silla",
+            "nombre":"Silla comedor Smile",
+            "tamano":"103x45cm",
+            "color": "Blanco / Negro",
+            "material":"Símil piel",
+            "descripcion":"Tejido símil piel, patín metálico cromado",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-016.png"
+        },
+        "76":{
+            "type":"silla",
+            "nombre":"Silla comedor Laia",
+            "tamano":"98x43cm",
+            "color": "Blanco / Gris",
+            "material":"Símil piel",
+            "descripcion":"Tejido símil piel, patas metálicas pintura epoxi",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-017.png"
+        },
+        "77":{
+            "type":"silla",
+            "nombre":"Silla comedor Visión",
+            "tamano":"84x48cm",
+            "color": "Blanco",
+            "material":"Policarbonato",
+            "descripcion":"Carcasa policarbonato, patas en madera",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-018.png"
+        },
+        "78":{
+            "type":"silla",
+            "nombre":"Silla comedor Butterfly",
+            "tamano":"83x55cm",
+            "color": "Blanco",
+            "material":"Polipropileno",
+            "descripcion":"Polipropileno alta resistencia",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-019.png"
+        },
+        "79":{
+            "type":"silla",
+            "nombre":"Silla giratorio Pub",
+            "tamano":"93-115x45cm",
+            "color": "Blanco / Negro",
+            "material":"Símil piel",
+            "descripcion":"Kit inferior cromado, reposapies",
+            "modelo":3,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-020.png"
+        },
+        "80":{
+            "type":"silla",
+            "nombre":"Taburete giratorio Britain",
+            "tamano":"-x-cm",
+            "color": "Blanco",
+            "material":"Símil piel",
+            "descripcion":"Kit inferior cromado, reposapies",
+            "modelo":1,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-021.png"
+        },
+        "81":{
+            "type":"silla",
+            "nombre":"Taburete giratorio Klimb",
+            "tamano":"91-113x45cm",
+            "color": "Blanco / Negro",
+            "material":"Símil piel",
+            "descripcion":"Kit inferior cromado, regulable, reposapies",
+            "modelo":1,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-022.png"
+        },
+        "82":{
+            "type":"mesa",
+            "nombre":"Mesa centro elevable Universal",
+            "tamano":"44-57x112cm",
+            "color": "Blanco / Negro",
+            "material":"Cristal templado",
+            "descripcion":"Elevable, cristal interior portaobjetos",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-040.png"
+        },
+        "83":{
+            "type":"mesa",
+            "nombre":"Mesa centro Benetto",
+            "tamano":"40x112cm",
+            "color": "Transparente",
+            "material":"Cristal templado",
+            "descripcion":"Patas metálicas cromadas",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-041.png"
+        },
+        "84":{
+            "type":"mesa",
+            "nombre":"Mesa centro Glass",
+            "tamano":"35x110cm",
+            "color": "Transparente",
+            "material":"Cristal templado",
+            "descripcion":"Cristal templado",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-042.png"
+        },
+        "85":{
+            "type":"sofa",
+            "nombre":"Sofá capitoné clásico",
+            "tamano":"211 x 84 x 75 cm",
+            "color": "Chocolate vintage / Velvet verde / Símil piel negro-blanco",
+            "material":"Símil piel / Velvet",
+            "descripcion":"Sofá 3 plazas símil piel y velvet",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-000.png"
+        },
+        "86":{
+            "type":"sofa",
+            "nombre":"Sofá capitoné clásico",
+            "tamano":"166 x 84 x 75 cm",
+            "color": "Chocolate vintage / Velvet verde / Símil piel negro-blanco",
+            "material":"Símil piel / Velvet",
+            "descripcion":"Sofá 2 plazas símil piel y velvet",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-001.png"
+        },
+        "87":{
+            "type":"sofa",
+            "nombre":"Sofá capitoné clásico",
+            "tamano":"115 x 84 x 75 cm",
+            "color": "Chocolate vintage / Velvet verde / Símil piel negro-blanco",
+            "material":"Símil piel / Velvet",
+            "descripcion":"Sofá 1 plaza símil piel y velvet",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-002.png"
+        },
+        "88":{
+            "type":"sofa",
+            "nombre":"Sofá moderno y ligero",
+            "tamano":" 175 x 75 x 77 cm",
+            "color": "Mostaza / Verde aguamarina / Gris",
+            "material":"Velvet",
+            "descripcion":"Sofá 3 plazas",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-003.png"
+        },
+        "89":{
+            "type":"sillon",
+            "nombre":"Sillón relax elevador Canyon",
+            "tamano":"111 x 75 cm",
+            "color": "Mostaza / Chocolate vintage / Gris",
+            "material":"Tejido",
+            "descripcion":"Sillón relax con motor electrico",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillones/05-000.png"
+        },
+        "90":{
+            "type":"sillon",
+            "nombre":"Sillón relax Lift masaje y calor",
+            "tamano":"109 x 72 cm",
+            "color": "Símil piel Chocolate",
+            "material":"Símil piel",
+            "descripcion":"Apertura reposapiés y reclinado respaldo simultaneo",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillones/05-001.png"
+        },
+        "91":{
+            "type":"sillon",
+            "nombre":"Sillón relax elevador",
+            "tamano":"105 x 70 cm",
+            "color": "Tejido bali gris pearl/ Tejido bali gris marengo / Símil piel chocolate",
+            "material":"Tejido bali / Símil piel",
+            "descripcion":"Sillón relax elevador Trade orejero",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillones/05-002.png"
+        },
+        "92":{
+            "type":"sillon",
+            "nombre":"Sillón relax elevador",
+            "tamano":"105 x 70 cm",
+            "color": "Tejido bali gris pearl/ Tejido bali gris marengo / Símil piel chocolate",
+            "material":"Tejido bali / Símil piel",
+            "descripcion":"Sillón relax elevador Trade",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillones/05-003.png"
+        },
+        "93":{
+            "type":"sillon",
+            "nombre":"Sillón relax maneta Home orejero",
+            "tamano":"98 x 70 cm",
+            "color": "Tejido bali gris pearl/ Tejido bali gris marengo / Símil piel chocolate",
+            "material":"Tejido bali / Símil piel",
+            "descripcion":"Mecanismo pared cero, extensión completa respaldo y reposapies",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillones/05-004.png"
+        },
+        "94":{
+            "type":"sillon",
+            "nombre":"Sillón relax maneta Home",
+            "tamano":"98 x 70 cm",
+            "color": "Tejido bali gris pearl/ Tejido bali gris marengo / Símil piel chocolate",
+            "material":"Tejido bali / Símil piel",
+            "descripcion":"Mecanismo pared cero, extensión completa respaldo y reposapies",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillones/05-005.png"
+        },
+        "95":{
+            "type":"silla",
+            "nombre":"Butaca Voss",
+            "tamano":"95 x 71 cm",
+            "color": " Verde aguamarina / Gris / Mostaza",
+            "material":"Velvet / Tejido",
+            "descripcion":"Patas en madera",
+            "modelo":4,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-023.png"
+        },
+        "96":{
+            "type":"silla",
+            "nombre":"Butaca mecedora Rocker",
+            "tamano":"97 x 77 cm",
+            "color": " Verde aguamarina / Gris / Mostaza",
+            "material":"Velvet / Tejido",
+            "descripcion":"Patas en madera",
+            "modelo":4,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-024.png"
+        },
+        "97":{
+            "type":"silla",
+            "nombre":"Butaca Neptuno",
+            "tamano":"79 x 75 cm",
+            "color": " Verde aguamarina / Gris",
+            "material":"Velvet",
+            "descripcion":"Patas metálicas color dorado, diseño circular",
+            "modelo":4,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-025.png"
+        },
+        "98":{
+            "type":"silla",
+            "nombre":"Butaca mecedora Darla",
+            "tamano":"83 x 69 cm",
+            "color": " Verde / Gris / Beige",
+            "material":"Velvet",
+            "descripcion":"Butaca mecedora tapizada, balancín metálico",
+            "modelo":4,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-026.png"
+        },
+        "99":{
+            "type":"silla",
+            "nombre":"Butaca / Silla de comedor Dune",
+            "tamano":"75 x 58 cm",
+            "color": " Azul / Gris",
+            "material":"Velvet",
+            "descripcion":"Patas metálicas color negro",
+            "modelo":4,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-027.png"
+        },
+        "100":{
+            "type":"silla",
+            "nombre":"Butaca mecedora Eve",
+            "tamano":"84 x 75 cm",
+            "color": " Blanci / Gris",
+            "material":"Plástico",
+            "descripcion":"Butaca mecedora carcasa plástica",
+            "modelo":4,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-028.png"
+        },
+        "101":{
+            "type":"sofa",
+            "nombre":"Sofá cama Fox",
+            "tamano":"180x75x83cm/115x181cm",
+            "color": "Gris",
+            "material":"Tejido",
+            "descripcion":" Patas antivuelco ocultas en respaldo",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-004.png"
+        },
+        "102":{
+            "type":"sofa",
+            "nombre":"Sofá cama Surfer",
+            "tamano":"180x75x83cm/115x181cm",
+            "color": "Mostaza / Verde aguamarina",
+            "material":"Tejido",
+            "descripcion":" Patas antivuelco ocultas en respaldo",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-005.png"
+        },
+        "103":{
+            "type":"sofa",
+            "nombre":"Sofá cama Chic",
+            "tamano":"180x82x82cm/105x180cm",
+            "color": "Blanco / Negro",
+            "material":"Símil piel",
+            "descripcion":"Mecanismo clic clac con apertura de tipo libro",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-006.png"
+        },
+        "104":{
+            "type":"cama",
+            "nombre":"Sofá cama Capitoné",
+            "tamano":" 160 x 12 x 140 cm",
+            "color": "Blanco",
+            "material":"Símil piel",
+            "descripcion":"Cabecero tapizado con patas cromadas",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/camas/05-000.png"
+        },
+        "105":{
+            "type":"cama",
+            "nombre":"Sofá cama Enfield",
+            "tamano":"160 x 12 x 95 cm",
+            "color": "Blanco",
+            "material":"Símil piel",
+            "descripcion":"Cabecero tapizado para colgar",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/camas/05-001.png"
+        },
+        "106":{
+            "type":"otros",
+            "nombre":"Cabecero tapizado Square",
+            "tamano":"160 / 100 x 10 x 55 cm",
+            "color": "Blanco / Chocolate",
+            "material":"Símil piel",
+            "descripcion":"Cabecero tapizado para colgar",
+            "modelo":0,
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-007.png"
         },
         "999":{
             "type":"armario",
@@ -327,28 +1174,13 @@
             "material":"madera de pino",
             "modelo":1348,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/silla1.png"
-        },
-        "998":{
-            "type":"estanteria",
-            "nombre":"estanteria gamer",
-            "tamano":"190x105cm",
-            "colores":{
-                "color1":"rojo",
-                "color2":"amarillo",
-                "color3":"verde"
-            },
-            "material":"madera de olivo",
-            "modelo":1442,
-            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/silla1.png"
         }
-
     },
-    "best_products":{
-       
+    "slider":{
         "type1":"silla",
-        "nombre1":"Silla gaming",
-        "modelo1":1172,
-        "img1":"../../data/img/silla1.png",
+        "nombre1":"Sofá Olden Gris",
+        "modelo1":0,
+        "img1":"https://raw.githubusercontent.com/los-leones/images/master/home/slider/1.png",
         "type2":"armario",
         "nombre2":"Armario gamer RGB",
         "modelo2":1348,
@@ -360,11 +1192,11 @@
         
     },
     "home_products":{
-
             "type1":"mesa",
             "nombre1":"Mesa comedor Branch Extensible",
             "tamano1":"77x140-180cm",
-            "img1":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-008.png",
+            "img1":"https://raw.githubusercontent.com/los-leones/images/master/home/best/best_00.png",
+            "img1b":"https://raw.githubusercontent.com/los-leones/images/master/home/best/best_01.png",
             "type2":"mesa",
             "nombre2":"Mesa comedor Natural fija",
             "tamano2":"76x140cm",

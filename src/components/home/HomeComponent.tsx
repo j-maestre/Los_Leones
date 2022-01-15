@@ -20,12 +20,11 @@ type HeaderProps = {
   }
 
 type HomeProps = {
-    best_products:{
+    slider:{
         type1:string,
         nombre1:string,
         modelo1:number,
         img1:string,
-        type2:string,
         nombre2:string,
         modelo2:number,
         img2:string,
@@ -39,6 +38,7 @@ type HomeProps = {
         nombre1:string,
         tamano1:string,
         img1:string,
+        img1b:string,
         type2:string,
         nombre2:string,
         tamano2:string,
@@ -53,7 +53,7 @@ type HomeProps = {
 
 const HomeComponent: React.FC<HomeProps> = (props) =>{
     const { state, dispatch } = useContext(AppContext);
-    let best_products = props.best_products;
+    let best_products = props.slider;
 
 
     return(
@@ -68,7 +68,7 @@ const HomeComponent: React.FC<HomeProps> = (props) =>{
                     {/* showStatus defalut true */}
                     <Carousel autoPlay={true} dynamicHeight={true} emulateTouch={true} infiniteLoop={true} stopOnHover={true}>
                         <div>
-                            <img src={img1} className="slider_img" />
+                            <img src={best_products.img1} className="slider_img" />
                             <p className="legend">{best_products.nombre1}</p>
                         </div>
                         <div>
@@ -82,9 +82,12 @@ const HomeComponent: React.FC<HomeProps> = (props) =>{
                     </Carousel>
                 </div>
                 <h2 className="text-center">Algunos de nuestros productos</h2>
+                <hr></hr>
                 <div className="home_products">
                 <NavLink to="products" className="nav-link" activeClassName="active">
                     <div className="home_product">
+                        {/* <img src={props.home_products.img1}/> */}
+                        <img className="background" src={props.home_products.img1b}/>
                         <img src={props.home_products.img1}/>
                     </div>
                 </NavLink>
@@ -99,6 +102,7 @@ const HomeComponent: React.FC<HomeProps> = (props) =>{
                     </div>
                 </NavLink>
                 </div>
+                <hr></hr>
                 
             </div>
     );

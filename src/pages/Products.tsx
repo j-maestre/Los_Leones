@@ -16,7 +16,6 @@ const Products = () => {
 
   let articles = []; 
   articles = [...Object.values(state.articles)];
-  console.log("Articles products.tsx-> ", articles);
 
   return (
     <>

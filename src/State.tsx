@@ -23,6 +23,7 @@ const initialState = {
   user_coordinates: "no",
   segment: "recent",
   filter: "all",
+  subfilter: "",
   articles: []
 };
 
@@ -39,6 +40,9 @@ let reducer = (state, action) => {
     }
     case "SET_FILTER":{
       return {...state, filter:action.value};
+    }
+    case "SET_SUBFILTER":{
+      return {...state, subfilter:action.value};
     }
     case "LOGOUT": {
       return { ...state, user: "" };
@@ -71,18 +75,18 @@ let reducer = (state, action) => {
 
 const logger = (reducer) => {
   const reducerWithLogger = (state, action) => {
-    console.log(
-      "%cPrevious State:",
-      "color: #9E9E9E; font-weight: 700;",
-      state
-    );
-    console.log("%cAction:", "color: #00A7F7; font-weight: 700;", action);
+    // console.log(
+    //   "%cPrevious State:",
+    //   "color: #9E9E9E; font-weight: 700;",
+    //   state
+    // );
+    // console.log("%cAction:", "color: #00A7F7; font-weight: 700;", action);
     const actionReducer = reducer(state, action);
-    console.log(
-      "%cNext State:",
-      "color: #47B04B; font-weight: 700;",
-      actionReducer
-    );
+    // console.log(
+    //   "%cNext State:",
+    //   "color: #47B04B; font-weight: 700;",
+    //   actionReducer
+    // );
     return actionReducer;
   };
   return reducerWithLogger;

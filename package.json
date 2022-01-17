@@ -5,6 +5,9 @@
   "dependencies": {
     "@capacitor/android": "^2.4.5",
     "@capacitor/core": "2.4.5",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.8",
     "@react-native-community/geolocation": "^2.0.2",
     "@types/jest": "^24.0.25",
     "@types/node": "^12.20.37",

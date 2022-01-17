@@ -8,8 +8,14 @@
     /* width: 200px; */
     max-height: 600px;
 }
+.carousel_container{
+    width: 100%;
+    /* align-self: center; */
+}
 
 .home_container__carousel{
+    display: flex;
+    /* max-width: 1000px; */
     width: 100%;
     /* height: 300px; */
 }

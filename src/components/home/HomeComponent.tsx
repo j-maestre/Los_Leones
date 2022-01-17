@@ -66,13 +66,13 @@ const HomeComponent: React.FC<HomeProps> = (props) =>{
                     {/* preventMovementUntilSwipeScrollTolerance  -> hasta que el user no hace un poco de scrool no empieza a moverse */}
                     {/* selectedItem  defaults to 0 */}
                     {/* showStatus defalut true */}
-                    <Carousel autoPlay={true} dynamicHeight={true} emulateTouch={true} infiniteLoop={true} stopOnHover={true}>
+                    <Carousel className="carousel_container" autoPlay={true} dynamicHeight={true} emulateTouch={true} infiniteLoop={true} stopOnHover={true}>
                         <div>
                             <img src={best_products.img1} className="slider_img" />
                             <p className="legend">{best_products.nombre1}</p>
                         </div>
                         <div>
-                            <img src={img2} className="slider_img" />
+                            <img src={best_products.img2} className="slider_img" />
                             <p className="legend">{best_products.nombre2}</p>
                         </div>
                         <div>

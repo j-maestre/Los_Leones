@@ -36,19 +36,17 @@ const Products: React.FC<ProductsProps> = ({product}) => {
   const { t } = useTranslation();
   const { state, dispatch } = useContext(AppContext);
   const [filteredSearch, setFilteredSearch] = useState([product_model]);
+  
 
   useEffect(() => {
     setArticles("all",-1,AllProducts.products);
   },[]);
 
   function onClick(type,model,toActive,articles = null){
-
     //Filtramos la categoria seleccionada
     setArticles(type,model,articles);
-
     //Cambiamos el item activo de la subcategoria
     setActive(toActive);
-
   }
 
   function filterProducts(products, type="all", model){
@@ -80,7 +78,7 @@ const Products: React.FC<ProductsProps> = ({product}) => {
   }
 
   function setArticles(type, model,articles = null){
-    console.log("Set articles model: "+model)
+    console.log("Set articles model: "+model);
 
     // dispatch({type:'SET_FILTER',value: type}) 
     if(!articles){

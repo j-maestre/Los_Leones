@@ -1184,7 +1184,7 @@
         "type2":"armario",
         "nombre2":"Armario gamer RGB",
         "modelo2":1348,
-        "img2":"base64",
+        "img2":"https://raw.githubusercontent.com/los-leones/images/master/home/slider/2.png",
         "type3":"mesa",
         "nombre3":"Mesa gamer",
         "modelo3":3349,

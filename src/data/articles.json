@@ -1198,7 +1198,7 @@
             "img3":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-004.png"
     },
     "social":{
-        "instagram":"",
-        "facebook":""
+        "instagram":"https://raw.githubusercontent.com/los-leones/images/1dd3af51984d9098fd1b94627dac1174481439e8/social/instagram.svg",
+        "facebook":"https://raw.githubusercontent.com/los-leones/images/1dd3af51984d9098fd1b94627dac1174481439e8/social/facebook.svg"
     }
 }

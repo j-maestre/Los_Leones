@@ -35,8 +35,16 @@ const About: React.FC<HeaderProps> = (props) =>{
                 </div>
                 <div className="about_container__image">
                     <img src={image} className="image" alt="imagen tienda" width="675" height="506"/>
+                    <hr></hr>
+                    <div className="social_container">
+                        <a href="https://www.instagram.com/muebleslosleones/" target="#blank"><img className="social" src="https://raw.githubusercontent.com/los-leones/images/1dd3af51984d9098fd1b94627dac1174481439e8/social/instagram.svg" /></a>
+                        <a href="https://www.facebook.com/MueblesLosLeones" target="#blank"><img className="social" src="https://raw.githubusercontent.com/los-leones/images/1dd3af51984d9098fd1b94627dac1174481439e8/social/facebook.svg" /></a>
+                    </div>
+
                 </div>
-                <img src="../../data/img/instagram.svg" />
+                {/* <div className="social_media"> */}
+                    
+                {/* </div> */}
 
                 
 

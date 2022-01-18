@@ -36,6 +36,7 @@ const About: React.FC<HeaderProps> = (props) =>{
                 <div className="about_container__image">
                     <img src={image} className="image" alt="imagen tienda" width="675" height="506"/>
                 </div>
+                <img src="../../data/img/instagram.svg" />
 
                 
 

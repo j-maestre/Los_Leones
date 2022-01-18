@@ -41,17 +41,17 @@ const Header: React.FC<HeaderProps> = (props) => {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav right">
               <li className="nav-item">
-                <NavLink className="nav-link" to="home" activeClassName="active">Home</NavLink>
+                <NavLink className="nav-link" to="home" activeClassName="active">Inicio</NavLink>
               </li>
               <li className="nav-item">
-              <NavLink to="products" className="nav-link" activeClassName="active">Products</NavLink>
+              <NavLink to="products" className="nav-link" activeClassName="active">Productos</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="about" activeClassName="active">About</NavLink>
+                <NavLink className="nav-link" to="about" activeClassName="active">Sobre nosotros</NavLink>
               </li>
               
               <li className="nav-item">
-              <NavLink className="nav-link" to="contact" activeClassName="active">Contact Us</NavLink>
+              <NavLink className="nav-link" to="contact" activeClassName="active">Contacto</NavLink>
               </li>
             </ul>
           </div>

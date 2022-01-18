@@ -40,6 +40,7 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
+    const prueba = () => console.log("Pene gordo");
     return(
             <div className="product_container" onClick={handleOpen}>
                 <div className="product_container_img">
@@ -48,8 +49,8 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
                         <p>{props.product.tamano}</p>
                     </div>
                 </div>
+                <p className="product_name">{props.product.nombre}</p>
                 
-                <p>{props.product.nombre}</p>
                 <hr></hr>
                 <Modal
                     open={open}
@@ -57,7 +58,10 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"
                 >
-                    <Box sx={style}>
+                    <Box sx={style} className="modal_content">
+                        {/* <Button className="close" onClick={handleClose}>X</Button> */}
+                        {/* <Button onClick={prueba}>Close Child Modal</Button> */}
+                        <button className="close" onClick={prueba}>X</button>
                         <img src={props.product.img} />
                     </Box>
                 </Modal>

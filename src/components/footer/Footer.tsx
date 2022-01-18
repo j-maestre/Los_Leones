@@ -23,6 +23,7 @@ const Footer: React.FC = () => {
                                     <a href="#">Faq</a>
                                     <a href="#">Contact</a>
                                 </p>
+                                
                                 <p className="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">Deluxe Interior</a></p>
                                 
                             </div>

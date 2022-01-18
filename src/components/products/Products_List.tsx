@@ -146,7 +146,7 @@ const Products: React.FC<ProductsProps> = ({product}) => {
       <hr></hr>
       <section className="products__menu button-group filter-button-group"> {/*text-center*/}
         <div className={toggleActive("all","principal")} onClick={() => setArticles("all",-1)}>Todo</div>
-        <div className={toggleActive("armario","principal")} onClick={() => setArticles("armario",-1)}>Armarios</div>
+        {/* <div className={toggleActive("armario","principal")} onClick={() => setArticles("armario",-1)}>Armarios</div> */}
         <div className={toggleActive("cama","principal")} onClick={() => setArticles("cama",-1)}>Camas</div>
         <div className={toggleActive("estanteria","principal")} onClick={() => setArticles("estanteria",-1)}>Estanterias</div>
         <div className={toggleActive("mesa","principal")} onClick={() => setArticles("mesa",-1)}>Mesas</div>
@@ -154,11 +154,6 @@ const Products: React.FC<ProductsProps> = ({product}) => {
         <div className={toggleActive("sillon","principal")} onClick={() => setArticles("sillon",-1)}>Sillones</div>
         <div className={toggleActive("sofa","principal")} onClick={() => setArticles("sofa",-1)}>Sofás</div>
         <div className={toggleActive("otros","principal")} onClick={() => setArticles("otros",-1)}>Otros</div>
-        {/* <button className="products__menu-item" id="all" onClick={() => setArticles("all")}>Todo</button>
-        <button className="products__menu-item" id="sillas" onClick={() => setArticles("silla")}>Sillas</button>
-        <button className="products__menu-item" id="armarios" onClick={() => setArticles("armario")}>Armarios</button>
-        <button className="products__menu-item" id="mesas" onClick={() => setArticles("mesa")}>Mesas</button>
-        <button className="products__menu-item" id="estanterias" onClick={() => setArticles("estanteria")}>Estanterias</button> */}
         <hr></hr>
         <section className="subfilters filter-button-group button-group">
           {toggleFilters()}

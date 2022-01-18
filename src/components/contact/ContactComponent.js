@@ -107,7 +107,7 @@ export class ContactComponent extends React.Component {
                                 <textarea id="message" ref={ref => (this.message = ref)} onChange={this.CheckChanges} className="form-control message" placeholder="Mensaje" required={true} data-validation-required-message="Introduzca el mensaje"></textarea>
                             </div>
                             <div className="form_send">
-                                <button type="submit" id="sendMessageButton" ref={ref => (this.send = ref)} className="btn-send" data-text="Send Message" onClick={this.succes}>Send Message</button>
+                                <button type="submit" id="sendMessageButton" ref={ref => (this.send = ref)} className="btn-send" data-text="Send Message" onClick={this.succes}>Enviar mensaje</button>
                             </div>
                         </form>
                     </div>

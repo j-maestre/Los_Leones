@@ -1165,15 +1165,6 @@
             "modelo":0,
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-007.png"
-        },
-        "999":{
-            "type":"armario",
-            "nombre":"armario gamer RGB",
-            "tamano":"105x70cm",
-            "color":"marron",
-            "material":"madera de pino",
-            "modelo":1348,
-            "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/silla1.png"
         }
     },
     "slider":{
@@ -1205,5 +1196,9 @@
             "nombre3":"Mesa comedor Natural extensible",
             "tamano3":"76x140-180cm",
             "img3":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-004.png"
+    },
+    "social":{
+        "instagram":"",
+        "facebook":""
     }
 }

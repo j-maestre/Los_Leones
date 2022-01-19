@@ -1,5 +1,5 @@
 .products{
-    margin-top: 125px; /*MARGEN CON EL HEADER*/
+    margin-top: 150px; /*MARGEN CON EL HEADER*/
     margin-bottom: 10px;
 }
 .products__menu{
@@ -54,7 +54,7 @@ p{
 
 .products-title{
     padding: 5px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     margin-left: 20px;
     width: 100%;
 }
@@ -149,4 +149,8 @@ p{
 
 .product_container_img{
     box-shadow: 0 0 2px 1px #ccc;
+}
+
+.products__images{
+    margin-bottom: 50px;
 }

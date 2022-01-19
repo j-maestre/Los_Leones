@@ -612,7 +612,7 @@
             "color": "Pino",
             "material":"Pino reciclado",
             "descripcion":"Madera de pino reciclado",
-            "modelo":2,
+            "modelo":3,
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-003.png"
         },

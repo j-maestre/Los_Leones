@@ -116,3 +116,28 @@
 .footer-distributed .footer-company-name a:hover{
 	color: #000000;
 }
+
+.footer_social_container .social{
+    width: 35px;
+    height: auto;
+    /* margin:0; */
+    /* margin-left: 50px; */
+    /* margin-top: 0px; */
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+}
+.social_footer, .social_media{
+    max-width: 45px;
+    margin-right: 30px;
+}
+.social_footer:hover{
+    cursor: pointer;
+}
+.footer-links:hover *{
+    background-color: none !important;
+}
+.footer_link:hover{
+    background-color: var(--secondary-color) !important;
+    color: #007bff !important;
+}

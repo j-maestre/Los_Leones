@@ -45,13 +45,14 @@ const App: React.FC = () =>(
           <Route component={Products} path="/products"></Route>
           <Route component={AboutUs} path="/about"></Route>
           <Route component={ContactUs} path="/contact"></Route>
+          {/* <Route component={Error404} /> */}
+
             <Route
               path="/"
               render={() => <Redirect to="/home" />}
               exact={true}
             />
             {/* <Route path="/app" component={Tabs} />  MENU HEADER*/}
-            {/* <Route component={Error404} /> */}
 
           </Router>
         {/* </IonPage> */}

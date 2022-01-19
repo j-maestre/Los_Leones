@@ -130,6 +130,14 @@ const Products: React.FC<ProductsProps> = ({product}) => {
                   <div className={toggleActive("butaca","subfilter")} onClick={() => onClick("silla",4,"butaca")}>Butaca</div>
                </section>
       break;
+      case 'otros':
+        return <section className="button-group filter-button-group">
+                    <div className={toggleActive("silla","subfilter")} onClick={() => onClick("otros",0,"cabecero")}>Cabeceros</div>
+                    <div className={toggleActive("taburete","subfilter")} onClick={() => onClick("otros",1,"taburete")}>Percheros</div>
+                    <div className={toggleActive("espejo","subfilter")} onClick={() => onClick("otros",2,"espejo")}>Espejos</div>
+                    <div className={toggleActive("pizarra","subfilter")} onClick={() => onClick("otros",3,"pizarra")}>Pizarras</div>
+               </section>
+      break;
       default:
         return null;
       break;

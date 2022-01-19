@@ -43,10 +43,12 @@ type HomeProps = {
         nombre2:string,
         tamano2:string,
         img2:string,
+        img2b:string,
         type3:string,
         nombre3:string,
         tamano3:string,
-        img3:string
+        img3:string,
+        img3b:string,
     };
 };
 
@@ -87,17 +89,19 @@ const HomeComponent: React.FC<HomeProps> = (props) =>{
                 <NavLink to="products" className="nav-link" activeClassName="active">
                     <div className="home_product">
                         {/* <img src={props.home_products.img1}/> */}
-                        <img className="background" src={props.home_products.img1b}/>
+                        <p className="background"><img src={props.home_products.img1b}/></p>
                         <img src={props.home_products.img1}/>
                     </div>
                 </NavLink>
                 <NavLink to="products" className="nav-link" activeClassName="active">
                     <div className="home_product">
+                    <p className="background"><img src={props.home_products.img2b}/></p>
                         <img src={props.home_products.img2}/>
                     </div>
                 </NavLink>
                 <NavLink to="products" className="nav-link" activeClassName="active">
                     <div className="home_product">
+                    <p className="background"><img src={props.home_products.img3b}/></p>
                         <img src={props.home_products.img3}/>
                     </div>
                 </NavLink>

@@ -166,9 +166,6 @@ const Products: React.FC<ProductsProps> = ({product}) => {
         <section className="subfilters filter-button-group button-group">
           {toggleFilters()}
         </section>
-
-        
-
 		  </section>
 
       <section className="products__images">

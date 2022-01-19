@@ -1191,11 +1191,13 @@
             "type2":"mesa",
             "nombre2":"Mesa comedor Natural fija",
             "tamano2":"76x140cm",
-            "img2":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-003.png",
+            "img2":"https://raw.githubusercontent.com/los-leones/images/master/home/best/best_10.png",
+            "img2b":"https://raw.githubusercontent.com/los-leones/images/master/home/best/best_11.png",
             "type3":"mesa",
             "nombre3":"Mesa comedor Natural extensible",
             "tamano3":"76x140-180cm",
-            "img3":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-004.png"
+            "img3":"https://raw.githubusercontent.com/los-leones/images/master/home/best/best_20.png",
+            "img3b":"https://raw.githubusercontent.com/los-leones/images/master/home/best/best_21.png"
     },
     "social":{
         "instagram":"https://raw.githubusercontent.com/los-leones/images/1dd3af51984d9098fd1b94627dac1174481439e8/social/instagram.svg",

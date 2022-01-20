@@ -1,7 +1,9 @@
 .about_container{
-    margin-top: 160px;
+    margin-top: 140px;
     margin-left:0px;
     margin-right: 0px;
+    height: 100%;
+    /* margin-bottom: 80px; */
     /* background-color: var(--primary-color); */
     background-color:#f1f1f1;
     width: 100%;
@@ -36,6 +38,11 @@
     margin-top: 50px;
 }
 
+.section-title p{
+    letter-spacing: 2px;
+    font-size: larger;
+}
+
 .about_container__image{
     margin-left: 20px;
     margin-right: 20px;
@@ -64,3 +71,4 @@
     margin-bottom: 100px;
 }
 
+.social_container{margin-bottom: 50px;}

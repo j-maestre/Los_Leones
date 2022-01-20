@@ -17,13 +17,11 @@ const About: React.FC<HeaderProps> = (props) =>{
             <div className="about_container">
                 <div className="section-title text-center">
                         <h1>Bienvenido a Muebles Los Leones </h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            It has survived not only five centuries, but also the leap into electronic typesetting, 
-                            remaining essentially unchanged. It was popularised in the 1960s 
-                            with the release of Letraset sheets containing Lorem Ipsum passages, 
-                            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        <p>Somos una empresa familiar que llevamos 
+                            más de 50 años al servicio de nuestros clientes,siempre 
+                            intentamos dar el mejor servicio y relación calidad-precio,
+                            trabajamos con una amplia variedad de fabricantes españoles
+                            para poder dar un buen servicio. 
                         </p>
                         <hr></hr>
                         <address>Carrer dels Lleons nº 48 Valencia</address>

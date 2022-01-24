@@ -15,6 +15,7 @@ import Home from './pages/Home';
 import Products from './pages/Products';
 import AboutUs from "./pages/About";
 import ContactUs from "./pages/Contact";
+import Catalogos from "./pages/Catalogos";
 import articles from './data/articles.json';
 import PublicRoute from './components/routes/PublicRoute';
 import './App.css';
@@ -45,6 +46,7 @@ const App: React.FC = () =>(
           <Route component={Products} path="/products"></Route>
           <Route component={AboutUs} path="/about"></Route>
           <Route component={ContactUs} path="/contact"></Route>
+          <Route component={Catalogos} path="/catalogos"></Route>
           {/* <Route component={Error404} /> */}
 
             <Route

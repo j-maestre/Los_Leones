@@ -21,6 +21,7 @@ const Header: React.FC<HeaderProps> = (props) => {
   const { state } = useContext(AppContext);
   const { t } = useTranslation();
 
+
   // useEffect(() => {
   //   state.theme === "Dark"
   //     ? document.body.classList.add("dark")
@@ -46,6 +47,11 @@ const Header: React.FC<HeaderProps> = (props) => {
               <li className="nav-item">
               <NavLink to="products" className="nav-link" activeClassName="active">Productos</NavLink>
               </li>
+
+              <li className="nav-item">
+              <NavLink className="nav-link" to="catalogos" activeClassName="active">Catalogos</NavLink>
+              </li>
+
               <li className="nav-item">
                 <NavLink className="nav-link" to="about" activeClassName="active">Sobre nosotros</NavLink>
               </li>

@@ -24,7 +24,8 @@ const initialState = {
   segment: "recent",
   filter: "all",
   subfilter: "",
-  articles: []
+  articles: [],
+  img: ""
 };
 
 let reducer = (state, action) => {
@@ -57,16 +58,13 @@ let reducer = (state, action) => {
       localStorage.setItem('i18nextLng', action.value);
       return { ...state, language: action.value};
     }
-    case "ALL_COORDINATES": {
-      //Cambiamos la latitud y longitud de lo que queremos mostrar en el map, ya sea uno solo o todos
-      return { ...state, coordinates: action.value };
-    }
     case "SET_FILTERS": {
       return { ...state, filters: action.value };
     }
-    case "USER_COORDINATES": {
-      return { ...state, user_coordinates: action.value }; //Aqui estan las coordenadas del usuario
+    case "SET_IMG":{
+      return { ...state, img: action.value };
     }
+ 
 
 
   }

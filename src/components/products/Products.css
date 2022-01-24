@@ -152,5 +152,10 @@ p{
 }
 
 .products__images{
-    margin-bottom: 50px;
+    margin-bottom: 325px
+}
+
+.logo{
+    position: absolute;
+    opacity: 0.7;
 }

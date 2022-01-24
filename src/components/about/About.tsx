@@ -17,11 +17,15 @@ const About: React.FC<HeaderProps> = (props) =>{
             <div className="about_container">
                 <div className="section-title text-center">
                         <h1>Bienvenido a Muebles Los Leones </h1>
-                        <p>Somos una empresa familiar que llevamos 
-                            más de 50 años al servicio de nuestros clientes,siempre 
-                            intentamos dar el mejor servicio y relación calidad-precio,
-                            trabajamos con una amplia variedad de fabricantes españoles
-                            para poder dar un buen servicio. 
+                        <p>Somos una empresa familiar que lleva más de 50 años al servicio de nuestros clientes.
+                            Intentamos distinguirnos de otros negocios dando un trato cercano, familiar y eficaz.
+                            Esto lo conseguimos trabajando con los mejores fabricantes españoles, para garantizar
+                            precios y plazos inmejorables.
+                            Estamos especializados en muebles del hogar y para negocios u oficinas.
+                            Descubre en nuestros amplios catálogos cientos de colecciones para satisfacer todas 
+                            tus necesidades. Desde amueblar pisos para alquiler hasta las colecciones mas exclusivas 
+                            para dar un toque distinguido a tu hogar.
+                            No dudes en pedir presupuestos sin compromiso, estaremos encantados de ayudarte.
                         </p>
                         <hr></hr>
                         <address>Carrer dels Lleons nº 48 Valencia</address>

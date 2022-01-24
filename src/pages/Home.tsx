@@ -21,6 +21,7 @@ const Home = () => {
 
   // let articles = [best_products_model]; 
   let articles = data.slider;
+  console.log(data.social.instagram);
 
   
 

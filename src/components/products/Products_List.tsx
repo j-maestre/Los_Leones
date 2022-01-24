@@ -171,7 +171,8 @@ const Products: React.FC<ProductsProps> = ({product}) => {
       <section className="products__images">
         {/* Iteracion productos seleccionados en products preview MAP*/}
         {filteredSearch.map((value,key)=>(
-            <ProductsPreview product={value} key={"_"+key}/>
+          <ProductsPreview product={value} Key={"img_"+key}/>
+          // console.log("_"+key)
         ))}
       </section>
       <Footer/>

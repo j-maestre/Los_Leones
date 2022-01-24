@@ -6,12 +6,7 @@ import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import mergeImages from 'merge-images';
-
 import logo from "../../data/img/logo48.png";
-
-import merge from "./MergeImage";
-
 
 type ProductsPreviewProps = {
     product:{
@@ -41,69 +36,12 @@ const style = {
   };
 
 
-  // Convert image to base64
-  let toDataURL = (url, callback) => {
-    var xhr = new XMLHttpRequest();
-    xhr.onload = function () {
-      var reader = new FileReader();
-      reader.onloadend = function () {
-        callback(reader.result);
-      };
-      reader.readAsDataURL(xhr.response);
-    };
-    xhr.open("GET", url);
-    xhr.responseType = "blob";
-    xhr.send();
-  };
-
-  
-
-
-
 const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
     const [open, setOpen] = React.useState(false);
     const { dispatch } = useContext(AppContext);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
     const prueba = () => console.log("Pene gordo");
-    console.log(props.Key);
-
-    // merge(props.product.img,props.Key);
-    let merge = (base, logo) => {
-        toDataURL(logo, function (dataUrl) {
-          mergeImages([base, dataUrl]).then((new_image) =>
-            console.log(new_image),
-            // dispatch({ type: "SET_IMG", value: new_image })
-          );
-        });
-      };
-    
-      // Convert image to base64
-      let toDataURL = async (url, callback) => {
-          console.log("ola1");
-        var xhr = new XMLHttpRequest();
-        console.log("ola2");
-        xhr.onload = function () {
-            console.log("ola3");
-          var reader = new FileReader();
-          console.log("ola4");
-          reader.onloadend = function () {
-            console.log("ola5");
-            callback(reader.result);
-          };
-          console.log("ola6");
-          reader.readAsDataURL(xhr.response);
-        };
-        xhr.open("GET", url);
-        console.log("ola7");
-        xhr.responseType = "blob";
-        console.log("ola8");
-        xhr.send();
-        console.log("ola9");
-      };
-    
-    //   merge(props.product.img,logo);
-
     
     
     return(

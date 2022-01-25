@@ -45,8 +45,8 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
     
     
     return(
-            <div className="product_container" onClick={handleOpen}>
-                <div className="product_container_img">
+            <div className="product_container">
+                <div className="product_container_img" onClick={handleOpen}>
                     <img src={logo} className="logo" alt="logo" />
                     <img src={props.product.img} id={props.Key} alt="image" />
                     <div className="dimension">
@@ -67,7 +67,7 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
                     <Box sx={style} className="modal_content">
                         {/* <Button className="close" onClick={handleClose}>X</Button> */}
                         {/* <Button onClick={prueba}>Close Child Modal</Button> */}
-                        <button className="close" onClick={prueba}>X</button>
+                        <button className="close" onClick={handleClose}>X</button>
                         <img src={props.product.img} />
                     </Box>
                 </Modal>

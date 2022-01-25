@@ -22,8 +22,8 @@ const Products = () => {
       <section className="products">
         <Header page={"products"} />
         <Products_List product={articles}/>
-        <Footer/>
       </section>
+        <Footer/>
     </>
   );
 };

@@ -12,10 +12,7 @@ const Footer: React.FC = () => {
    
         return (
             <section className="footer">
-                <div className="copyrights">
-                    <div className="container-fluid">
                         <div className="footer-distributed">
-                            <div className="footer-left">
                                 <p className="footer-links">
                                     <NavLink className="footer_link" to="home">Inicio</NavLink>
                                     <NavLink className="footer_link" to="products">Productos</NavLink>
@@ -29,12 +26,7 @@ const Footer: React.FC = () => {
                                 </div>
                                 
                                 <p className="footer-company-name">All Rights Reserved. &copy; 2022 <a href="#">Muebles Los Leones</a></p>
-                                
-                            </div>
                         </div>
-                    </div>
-                </div>
-
             </section>
         );
     

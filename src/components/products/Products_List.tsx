@@ -92,6 +92,7 @@ const Products: React.FC<ProductsProps> = ({product}) => {
   }
 
   function toggleActive(type,group){
+
     if(type == state.filter && group == "principal"){
       return "products__menu-item active";
     }else if(group == "principal"){
@@ -130,6 +131,16 @@ const Products: React.FC<ProductsProps> = ({product}) => {
                   <div className={toggleActive("butaca","subfilter")} onClick={() => onClick("silla",4,"butaca")}>Butaca</div>
                </section>
       break;
+      case 'comedor':
+        return <section className="button-group filter-button-group">
+                    <div className={toggleActive("completo","subfilter")} onClick={() => onClick("comedor",0,"completo")}>Completos</div>
+               </section>
+      break;
+      case 'dormitorio':
+        return <section className="button-group filter-button-group">
+                    <div className={toggleActive("juvenil","subfilter")} onClick={() => onClick("dormitorio",0,"juvenil")}>Juveniles</div>
+               </section>
+      break;
       case 'otros':
         return <section className="button-group filter-button-group">
                     <div className={toggleActive("silla","subfilter")} onClick={() => onClick("otros",0,"cabecero")}>Cabeceros</div>
@@ -152,30 +163,35 @@ const Products: React.FC<ProductsProps> = ({product}) => {
         <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
       </div>
       <hr></hr>
-      <section className="products__menu button-group filter-button-group"> {/*text-center*/}
-        <div className={toggleActive("all","principal")} onClick={() => setArticles("all",-1)}>Todo</div>
-        {/* <div className={toggleActive("armario","principal")} onClick={() => setArticles("armario",-1)}>Armarios</div> */}
-        <div className={toggleActive("cama","principal")} onClick={() => setArticles("cama",-1)}>Camas</div>
-        <div className={toggleActive("estanteria","principal")} onClick={() => setArticles("estanteria",-1)}>Estanterias</div>
-        <div className={toggleActive("mesa","principal")} onClick={() => setArticles("mesa",-1)}>Mesas</div>
-        <div className={toggleActive("silla","principal")} onClick={() => setArticles("silla",-1)}>Sillas</div>
-        <div className={toggleActive("sillon","principal")} onClick={() => setArticles("sillon",-1)}>Sillones</div>
-        <div className={toggleActive("sofa","principal")} onClick={() => setArticles("sofa",-1)}>Sofás</div>
-        <div className={toggleActive("otros","principal")} onClick={() => setArticles("otros",-1)}>Otros</div>
-        <hr></hr>
-        <section className="subfilters filter-button-group button-group">
-          {toggleFilters()}
+      {/* <div className="products_content_container"> */}
+        <section className="products__menu button-group filter-button-group"> {/*text-center*/}
+          <div className={toggleActive("all","principal")} onClick={() => setArticles("all",-1)}>Todo</div>
+          {/* <div className={toggleActive("armario","principal")} onClick={() => setArticles("armario",-1)}>Armarios</div> */}
+          <div className={toggleActive("cama","principal")} onClick={() => setArticles("cama",-1)}>Camas</div>
+          <div className={toggleActive("comedor","principal")} onClick={() => setArticles("comedor",-1)}>Comedores</div>
+          <div className={toggleActive("dormitorios","principal")} onClick={() => setArticles("dormitorio",-1)}>Dormitorios</div>
+          <div className={toggleActive("estanteria","principal")} onClick={() => setArticles("estanteria",-1)}>Estanterias</div>
+          <div className={toggleActive("mesa","principal")} onClick={() => setArticles("mesa",-1)}>Mesas</div>
+          <div className={toggleActive("silla","principal")} onClick={() => setArticles("silla",-1)}>Sillas</div>
+          <div className={toggleActive("sillon","principal")} onClick={() => setArticles("sillon",-1)}>Sillones</div>
+          <div className={toggleActive("sofa","principal")} onClick={() => setArticles("sofa",-1)}>Sofás</div>
+          <div className={toggleActive("otros","principal")} onClick={() => setArticles("otros",-1)}>Otros</div>
+          <hr></hr>
+          <section className="subfilters filter-button-group button-group">
+            {toggleFilters()}
+          </section>
         </section>
-		  </section>
 
-      <section className="products__images">
-        {/* Iteracion productos seleccionados en products preview MAP*/}
-        {filteredSearch.map((value,key)=>(
-          <ProductsPreview product={value} Key={"img_"+key}/>
-          // console.log("_"+key)
-        ))}
-      </section>
-      <Footer/>
+        <section className="products__images">
+          {/* Iteracion productos seleccionados en products preview MAP*/}
+          {filteredSearch.map((value,key)=>(
+            <ProductsPreview product={value} Key={"img_"+key}/>
+            // console.log("_"+key)
+            ))}
+        </section>
+        {/* <div className="aux"></div>
+      </div> */}
+      {/* <Footer/> */}
     </section>
   );
 };

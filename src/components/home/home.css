@@ -1,6 +1,6 @@
 .home_container{
     margin-top: 160px;
-    margin-bottom: 50px;
+    margin-bottom: 210px;
     /* width: 40%; */
 }
 
@@ -31,11 +31,9 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
 }
-.home_product{
-    /* margin: 60px; */
-}
+
 .background{
     /* position: absolute; */
     transition: opacity 0.3s;

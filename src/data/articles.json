@@ -1318,6 +1318,44 @@
         "instagram":"https://raw.githubusercontent.com/los-leones/images/1dd3af51984d9098fd1b94627dac1174481439e8/social/instagram.svg",
         "facebook":"https://raw.githubusercontent.com/los-leones/images/1dd3af51984d9098fd1b94627dac1174481439e8/social/facebook.svg",
         "logo":"https://raw.githubusercontent.com/los-leones/images/master/home/logo.png"
+    },
+    "catalogos":{
+        "0":{
+            "nombre":"Belfast Seres",
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/belfast.png",
+            "download":"https://github.com/j-maestre/Los_Leones/raw/master/src/data/catalogs/BELFAST2021.pdf"
+        },
+        "1":{
+            "nombre":"Eos Cosmo",
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/cosmo.png",
+            "download":"https://github.com/j-maestre/Los_Leones/raw/master/src/data/catalogs/Catalogo_Eos_Cosmo_2020.pdf"
+        },
+        "2":{
+            "nombre":"Formas",
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/formas.png",
+            "download":"https://github.com/j-maestre/Los_Leones/raw/master/src/data/catalogs/Catalogo_Formas_19.pdf"
+        },
+        "3":{
+            "nombre":"Basic",
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/basic.png",
+            "download":"https://github.com/j-maestre/Los_Leones/raw/master/src/data/catalogs/DORMITORIOS_BASIC.pdf"
+        },
+        "4":{
+            "nombre":"Forest",
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/forest.png",
+            "download":"https://github.com/j-maestre/Los_Leones/raw/master/src/data/catalogs/FOREST_2021.pdf"
+        },
+        "5":{
+            "nombre":"Mood Ros",
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/mod_ros.png",
+            "download":"https://github.com/j-maestre/Los_Leones/raw/master/src/data/catalogs/MOOD_ROS_MINI_2020.pdf"
+        },
+        "6":{
+            "nombre":"Seres",
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/seres.png",
+            "download":"https://github.com/j-maestre/Los_Leones/raw/master/src/data/catalogs/SERES_Cat%C3%A1logo%202020.pdf"
+        }
+        
     }
     
 }

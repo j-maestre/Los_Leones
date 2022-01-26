@@ -80,23 +80,23 @@ const HomeComponent: React.FC<HomeProps> = (props) =>{
                     <Carousel className="carousel_container" autoPlay={true} dynamicHeight={true} emulateTouch={true} infiniteLoop={true} stopOnHover={true}>
                         <div>
                             <img src={best_products.img1} className="slider_img" />
-                            <p className="legend">{best_products.nombre1}</p>
+                            {/* <p className="legend">{best_products.nombre1}</p> */}
                         </div>
                         <div>
                             <img src={best_products.img2} className="slider_img" />
-                            <p className="legend">{best_products.nombre2}</p>
+                            {/* <p className="legend">{best_products.nombre2}</p> */}
                         </div>
                         <div>
                             <img src={best_products.img3} className="slider_img" />
-                            <p className="legend">{best_products.nombre3}</p>
+                            {/* <p className="legend">{best_products.nombre3}</p> */}
                         </div>
                         <div>
                             <img src={best_products.img4} className="slider_img" />
-                            <p className="legend">{best_products.nombre4}</p>
+                            {/* <p className="legend">{best_products.nombre4}</p> */}
                         </div>
                         <div>
                             <img src={best_products.img5} className="slider_img" />
-                            <p className="legend">{best_products.nombre5}</p>
+                            {/* <p className="legend">{best_products.nombre5}</p> */}
                         </div>
                     </Carousel>
                 </div>

@@ -25,13 +25,22 @@ type HomeProps = {
         nombre1:string,
         modelo1:number,
         img1:string,
+        type2:string,
         nombre2:string,
         modelo2:number,
         img2:string,
         type3:string,
         nombre3:string,
         modelo3:number,
-        img3:string
+        img3:string,
+        type4:string,
+        nombre4:string,
+        modelo4:number,
+        img4:string,
+        type5:string,
+        nombre5:string,
+        modelo5:number,
+        img5:string,
     };
     home_products:{
         type1:string,
@@ -78,8 +87,16 @@ const HomeComponent: React.FC<HomeProps> = (props) =>{
                             <p className="legend">{best_products.nombre2}</p>
                         </div>
                         <div>
-                            <img src={img3} className="slider_img" />
+                            <img src={best_products.img3} className="slider_img" />
                             <p className="legend">{best_products.nombre3}</p>
+                        </div>
+                        <div>
+                            <img src={best_products.img4} className="slider_img" />
+                            <p className="legend">{best_products.nombre4}</p>
+                        </div>
+                        <div>
+                            <img src={best_products.img5} className="slider_img" />
+                            <p className="legend">{best_products.nombre5}</p>
                         </div>
                     </Carousel>
                 </div>

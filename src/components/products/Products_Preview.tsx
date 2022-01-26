@@ -18,6 +18,7 @@ type ProductsPreviewProps = {
         color: string;
         material:string;
         modelo:number;
+        fabricante:string;
         precio: number;
         stock: boolean;
         descuento:number;
@@ -48,7 +49,7 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
     const history = useHistory();
     
     function SetPresupuesto(){
-        let presupuesto="Me gustaría recibir un presupuesto para el articulo: "+props.product.nombre;
+        let presupuesto="Me gustaría recibir un presupuesto para el articulo: "+props.product.nombre+" del fabricante "+props.product.fabricante;
         dispatch({type:'SET_PRESUPUESTO',value: presupuesto}); 
         history.push("/contact");
     }

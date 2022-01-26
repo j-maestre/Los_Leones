@@ -6,6 +6,7 @@ const product_model = {
     material:"",
     descripcion:"",
     modelo:0,
+    fabricante:"",
     precio: 0,
     stock: true,
     descuento:0,

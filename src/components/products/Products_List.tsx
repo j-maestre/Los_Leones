@@ -24,6 +24,7 @@ type ProductsProps = {
       material:string;
       descripcion:string;
       modelo:number;
+      fabricante:string;
       precio: number;
       stock: boolean;
       descuento:number;
@@ -162,10 +163,9 @@ const Products: React.FC<ProductsProps> = ({product}) => {
       <Header page={t("pages.products")} />
       <div className="products-title text-center">
         <h1 >Productos</h1>
-        <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+        <p>Estas son algunos de nuestros productos, para consultar todos los productos, visite catálogos.</p>
       </div>
       <hr></hr>
-      {/* <div className="products_content_container"> */}
         <section className="products__menu button-group filter-button-group"> {/*text-center*/}
           <div className={toggleActive("all","principal")} onClick={() => setArticles("all",-1)}>Todo</div>
           {/* <div className={toggleActive("armario","principal")} onClick={() => setArticles("armario",-1)}>Armarios</div> */}
@@ -188,12 +188,8 @@ const Products: React.FC<ProductsProps> = ({product}) => {
           {/* Iteracion productos seleccionados en products preview MAP*/}
           {filteredSearch.map((value,key)=>(
             <ProductsPreview product={value} Key={"img_"+key}/>
-            // console.log("_"+key)
             ))}
         </section>
-        {/* <div className="aux"></div>
-      </div> */}
-      {/* <Footer/> */}
     </section>
   );
 };

@@ -8,6 +8,7 @@
             "material":"Roble nordish, Roble american",
             "descripcion":"Madera roble / Patas metálicas",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.20,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-000.png"
         },
@@ -19,6 +20,7 @@
             "material":"Roble nordish, Roble american",
             "descripcion":"Madera roble / Patas metálicas",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-001.png"
         },
@@ -30,6 +32,7 @@
             "material":"Roble nordish, Roble american",
             "descripcion":"Madera roble / Patas metálicas",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-002.png"
         },
@@ -41,6 +44,7 @@
             "material":"Roble nordish, Roble american",
             "descripcion":"Madera roble / Patas metálicas",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-003.png"
         },
@@ -52,6 +56,8 @@
             "material":"Roble nordish, Roble american",
             "descripcion":"Madera roble / Esgtructura metálica",
             "modelo":0,
+            "fabricante":"ADEC",
+
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-004.png"
         },
@@ -63,6 +69,7 @@
             "material":"Metal, Roble",
             "descripcion":"Papel laminado color roble",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-005.png"
         },
@@ -74,6 +81,7 @@
             "material":"Metal",
             "descripcion":"Tapa estratificado color roble",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-006.png"
         },
@@ -85,6 +93,7 @@
             "material":"Metal",
             "descripcion":"Papel laminado color nogal / Patas metálicas color negro",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-007.png"
         },
@@ -96,6 +105,7 @@
             "material":"Metal",
             "descripcion":"Papel laminado color nogal / Patas metálicas color negro",
             "modelo":0,
+        "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-008.png"
         },
@@ -107,6 +117,7 @@
             "material":"Metal",
             "descripcion":"Papel laminado color nogal / Patas metálicas color negro",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-009.png"
         },
@@ -118,6 +129,7 @@
             "material":"Cristal / Metal",
             "descripcion":"Papel laminado color nogal / Patas metálicas color negro",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-010.png"
         },
@@ -129,6 +141,7 @@
             "material":"Madera haya / Metal",
             "descripcion":"Tablero lacado en blanco mate / Patas en madera haya / Estructura inferior metálica",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-011.png"
         },
@@ -140,6 +153,7 @@
             "material":"Madera haya / Metal",
             "descripcion":"Tablero lacado en blanco mate / Patas en madera haya",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-012.png"
         },
@@ -151,6 +165,7 @@
             "material":"Mdera haya / Metal",
             "descripcion":"Tablero lacado en blanco mate / Patas en madera haya / Estructura inferior metalica",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-013.png"
         },
@@ -162,6 +177,7 @@
             "material":"Mdera haya / Metal",
             "descripcion":"Tablero lacado en blanco mate / Patas en madera haya / Estructura inferior metalica",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-014.png"
         },
@@ -173,6 +189,7 @@
             "material":"Roble Nordish / Metal",
             "descripcion":"Estructura metálica en color negro",
             "modelo":1,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-015.png"
         },
@@ -184,6 +201,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Estructura metálica en color negro",
             "modelo":1,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-016.png"
         },
@@ -195,6 +213,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Peana metálica en color negro",
             "modelo":2,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-017.png"
         },
@@ -206,6 +225,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Peana metálica en color negro",
             "modelo":2,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-018.png"
         },
@@ -217,6 +237,7 @@
             "material":"Metal",
             "descripcion":"Taburete alto metálico",
             "modelo":1,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-000.png"
         },
@@ -228,6 +249,7 @@
             "material":"Tapiz",
             "descripcion":"Patas metálicas color negro",
             "modelo":1,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-001.png"
         },
@@ -239,6 +261,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble / Patas metálicas",
             "modelo":2,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-002.png"
         },
@@ -250,6 +273,7 @@
             "material":"Metal",
             "descripcion":"Silla comedor metálica",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-003.png"
         },
@@ -261,6 +285,7 @@
             "material":"Tejido / Metal",
             "descripcion":"Silla comedor curve tapizada",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-004.png"
         },
@@ -272,6 +297,7 @@
             "material":"Cuero / Metal",
             "descripcion":"Silla comedor tapizada",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-005.png"
         },
@@ -283,6 +309,7 @@
             "material":"Tapiz / Metal",
             "descripcion":"Silla comedor tapizada con patín",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-006.png"
         },
@@ -294,6 +321,7 @@
             "material":"Terciopelo / Tapiz",
             "descripcion":"Silla comedor tapizada Velvet",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-007.png"
         },
@@ -305,6 +333,7 @@
             "material":"Terciopelo / Tapiz",
             "descripcion":"Silla comedor tapizada",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-008.png"
         },
@@ -316,6 +345,7 @@
             "material":"Símil piel",
             "descripcion":"Silla comedor Craft",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-009.png"
         },
@@ -327,6 +357,7 @@
             "material":"Madera haya",
             "descripcion":"Carcasa plastica, asiento tapizado, patas en madera haya",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-010.png"
         },
@@ -338,6 +369,7 @@
             "material":"Madera haya",
             "descripcion":"Carcasa plastica, patas en madera haya",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-011.png"
         },
@@ -349,6 +381,7 @@
             "material":"Tex / Símil piel / Tapiz",
             "descripcion":"Silla comedor tapizada, estructura metálica",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-012.png"
         },
@@ -360,6 +393,7 @@
             "material":"Roble Nordish / Roble American / Metal",
             "descripcion":"Madera de roble y cajón interior portaobjetos. Estructura metálica",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-019.png"
         },
@@ -371,6 +405,7 @@
             "material":"Roble Nordish / Roble American / Metal",
             "descripcion":"Madera de roble. Patas metálica",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-020.png"
         },
@@ -382,6 +417,7 @@
             "material":"Roble / Nogal",
             "descripcion":"Elevable y extensible, estructura metálica, elevación por gas",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-021.png"
         },
@@ -393,6 +429,7 @@
             "material":"Madera",
             "descripcion":"Tapa y estante melamina color blanco. Patas en madera",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-022.png"
         },
@@ -404,6 +441,7 @@
             "material":"Madera",
             "descripcion":"Patas en madera",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-023.png"
         },
@@ -415,6 +453,7 @@
             "material":"Madera",
             "descripcion":"Patas en madera",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-024.png"
         },
@@ -426,6 +465,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Estructura metálica color negro",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-000.png "
         },
@@ -437,6 +477,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Estructura metálica color negro",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-001.png"
         },
@@ -448,6 +489,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Estructura metálica color negro",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-002.png"
         },
@@ -459,6 +501,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble, estructura metálica y estante interior símil cuero",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-003.png"
         },
@@ -470,6 +513,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble, estructura metálica de color negro",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-004.png"
         },
@@ -481,6 +525,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble, estructura metálica de color negro",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-005.png"
         },
@@ -492,6 +537,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble, estructura metálica de color negro",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-006.png"
         },
@@ -503,6 +549,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble, estructura metálica de color negro",
             "modelo":3,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-025.png"
         },
@@ -514,6 +561,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble, patas metálicas de color negro",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-000.png"
         },
@@ -525,6 +573,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble, colgados metálicos de color negro",
             "modelo":1,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-001.png"
         },
@@ -536,6 +585,7 @@
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble, estructura metálica de color negro",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-008.png"
         },
@@ -547,6 +597,7 @@
             "material":"Pino reciclado",
             "descripcion":"Patas madera color negro",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-026.png"
         },
@@ -558,6 +609,7 @@
             "material":"Pino reciclado",
             "descripcion":"Patas madera color negro, 2 cajones",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-027.png"
         },
@@ -569,6 +621,7 @@
             "material":"Pino reciclado",
             "descripcion":"Patas madera color negro, 2 cajones",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-008.png"
         },
@@ -580,6 +633,7 @@
             "material":"Pino reciclado",
             "descripcion":"Patas madera color negro",
             "modelo":3,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-028.png"
         },
@@ -591,6 +645,7 @@
             "material":"Pino reciclado",
             "descripcion":"Madera de pino reciclado",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-002.png"
         },
@@ -602,6 +657,7 @@
             "material":"Pino reciclado",
             "descripcion":"Madera de pino reciclado",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-009.png"
         },
@@ -613,6 +669,7 @@
             "material":"Pino reciclado",
             "descripcion":"Madera de pino reciclado",
             "modelo":3,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-003.png"
         },
@@ -624,6 +681,7 @@
             "material":"Pino reciclado",
             "descripcion":"Patas madera color negro, dos cajones",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-029.png"
         },
@@ -635,6 +693,7 @@
             "material":"Madera",
             "descripcion":"6 estantes, 3 cajones",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-010.png"
         },
@@ -646,6 +705,7 @@
             "material":"Madera",
             "descripcion":"3 cajones color blanco, patas en madera",
             "modelo":4,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-030.png"
         },
@@ -657,6 +717,7 @@
             "material":"Madera",
             "descripcion":"Cierre con llave, interior en velvet negro",
             "modelo":2,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-004.png"
         },
@@ -668,6 +729,7 @@
             "material":"Madera",
             "descripcion":"Cierre con llave, interior en velvet negro",
             "modelo":2,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-005.png"
         },
@@ -679,6 +741,7 @@
             "material":"Madera",
             "descripcion":"Cierre con llave, luz interior led, interior en velvet negro",
             "modelo":2,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-006.png"
         },
@@ -690,6 +753,7 @@
             "material":"Cristal templado",
             "descripcion":"Cristal templado transparente",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-031.png"
         },
@@ -701,6 +765,7 @@
             "material":"Cristal templado",
             "descripcion":"Cristal templado transparente",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-032.png"
         },
@@ -712,6 +777,7 @@
             "material":"Cristal templado",
             "descripcion":"Cristal templado transparente",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-033.png"
         },
@@ -723,6 +789,7 @@
             "material":"Cristal templado",
             "descripcion":"Cristal templado transparente",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-034.png"
         },
@@ -734,6 +801,7 @@
             "material":"Cristal templado",
             "descripcion":"Cristal templado transparente",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-035.png"
         },
@@ -745,6 +813,7 @@
             "material":"Cristal templado",
             "descripcion":"Cristal templado transparente, patas imitación madera de roble",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-036.png"
         },
@@ -756,6 +825,7 @@
             "material":"Cristal templado",
             "descripcion":"Cristal templado transparente, patas metálicas color blanco",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-037.png"
         },
@@ -767,6 +837,7 @@
             "material":"Cristal templado",
             "descripcion":"Tapa DM lacado mate, kit inferior metálico",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-038.png"
         },
@@ -778,6 +849,7 @@
             "material":"Cristal templado",
             "descripcion":"Extensible, pintura epoxi",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-039.png"
         },
@@ -789,6 +861,7 @@
             "material":"Símil piel",
             "descripcion":"Tejido símil piel, patas metálicas cromadas",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-013.png"
         },
@@ -800,6 +873,7 @@
             "material":" Símil piel",
             "descripcion":"Tejido símil piel, patín metálico cromado",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-014.png"
         },
@@ -811,6 +885,7 @@
             "material":"Símil piel",
             "descripcion":"Tejido símil piel, patas metálicas cromadas",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-015.png"
         },
@@ -822,6 +897,7 @@
             "material":"Símil piel",
             "descripcion":"Tejido símil piel, patín metálico cromado",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-016.png"
         },
@@ -833,6 +909,7 @@
             "material":"Símil piel",
             "descripcion":"Tejido símil piel, patas metálicas pintura epoxi",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-017.png"
         },
@@ -844,6 +921,7 @@
             "material":"Policarbonato",
             "descripcion":"Carcasa policarbonato, patas en madera",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-018.png"
         },
@@ -855,6 +933,7 @@
             "material":"Polipropileno",
             "descripcion":"Polipropileno alta resistencia",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-019.png"
         },
@@ -866,6 +945,7 @@
             "material":"Símil piel",
             "descripcion":"Kit inferior cromado, reposapies",
             "modelo":3,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-020.png"
         },
@@ -877,6 +957,7 @@
             "material":"Símil piel",
             "descripcion":"Kit inferior cromado, reposapies",
             "modelo":1,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-021.png"
         },
@@ -888,6 +969,7 @@
             "material":"Símil piel",
             "descripcion":"Kit inferior cromado, regulable, reposapies",
             "modelo":1,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-022.png"
         },
@@ -899,6 +981,7 @@
             "material":"Cristal templado",
             "descripcion":"Elevable, cristal interior portaobjetos",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-040.png"
         },
@@ -910,6 +993,7 @@
             "material":"Cristal templado",
             "descripcion":"Patas metálicas cromadas",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-041.png"
         },
@@ -921,6 +1005,7 @@
             "material":"Cristal templado",
             "descripcion":"Cristal templado",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-042.png"
         },
@@ -932,6 +1017,7 @@
             "material":"Símil piel / Velvet",
             "descripcion":"Sofá 3 plazas símil piel y velvet",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-000.png"
         },
@@ -943,6 +1029,7 @@
             "material":"Símil piel / Velvet",
             "descripcion":"Sofá 2 plazas símil piel y velvet",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-001.png"
         },
@@ -954,6 +1041,7 @@
             "material":"Símil piel / Velvet",
             "descripcion":"Sofá 1 plaza símil piel y velvet",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-002.png"
         },
@@ -965,6 +1053,7 @@
             "material":"Velvet",
             "descripcion":"Sofá 3 plazas",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-003.png"
         },
@@ -976,6 +1065,7 @@
             "material":"Tejido",
             "descripcion":"Sillón relax con motor electrico",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillones/05-000.png"
         },
@@ -987,6 +1077,7 @@
             "material":"Símil piel",
             "descripcion":"Apertura reposapiés y reclinado respaldo simultaneo",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillones/05-001.png"
         },
@@ -998,6 +1089,7 @@
             "material":"Tejido bali / Símil piel",
             "descripcion":"Sillón relax elevador Trade orejero",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillones/05-002.png"
         },
@@ -1009,6 +1101,7 @@
             "material":"Tejido bali / Símil piel",
             "descripcion":"Sillón relax elevador Trade",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillones/05-003.png"
         },
@@ -1020,6 +1113,7 @@
             "material":"Tejido bali / Símil piel",
             "descripcion":"Mecanismo pared cero, extensión completa respaldo y reposapies",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillones/05-004.png"
         },
@@ -1031,6 +1125,7 @@
             "material":"Tejido bali / Símil piel",
             "descripcion":"Mecanismo pared cero, extensión completa respaldo y reposapies",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillones/05-005.png"
         },
@@ -1042,6 +1137,7 @@
             "material":"Velvet / Tejido",
             "descripcion":"Patas en madera",
             "modelo":4,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-023.png"
         },
@@ -1053,6 +1149,7 @@
             "material":"Velvet / Tejido",
             "descripcion":"Patas en madera",
             "modelo":4,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-024.png"
         },
@@ -1064,6 +1161,7 @@
             "material":"Velvet",
             "descripcion":"Patas metálicas color dorado, diseño circular",
             "modelo":4,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-025.png"
         },
@@ -1075,6 +1173,7 @@
             "material":"Velvet",
             "descripcion":"Butaca mecedora tapizada, balancín metálico",
             "modelo":4,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-026.png"
         },
@@ -1086,6 +1185,7 @@
             "material":"Velvet",
             "descripcion":"Patas metálicas color negro",
             "modelo":4,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-027.png"
         },
@@ -1097,6 +1197,7 @@
             "material":"Plástico",
             "descripcion":"Butaca mecedora carcasa plástica",
             "modelo":4,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-028.png"
         },
@@ -1108,6 +1209,7 @@
             "material":"Tejido",
             "descripcion":" Patas antivuelco ocultas en respaldo",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-004.png"
         },
@@ -1119,6 +1221,7 @@
             "material":"Tejido",
             "descripcion":" Patas antivuelco ocultas en respaldo",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-005.png"
         },
@@ -1130,6 +1233,7 @@
             "material":"Símil piel",
             "descripcion":"Mecanismo clic clac con apertura de tipo libro",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-006.png"
         },
@@ -1141,6 +1245,7 @@
             "material":"Símil piel",
             "descripcion":"Cabecero tapizado con patas cromadas",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/camas/05-000.png"
         },
@@ -1152,6 +1257,7 @@
             "material":"Símil piel",
             "descripcion":"Cabecero tapizado para colgar",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/camas/05-001.png"
         },
@@ -1163,23 +1269,32 @@
             "material":"Símil piel",
             "descripcion":"Cabecero tapizado para colgar",
             "modelo":0,
+            "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-007.png"
         }
     },
     "slider":{
-        "type1":"silla",
-        "nombre1":"Sofá Olden Gris",
+        "type1":"dormitorio",
+        "nombre1":"Dormitorio",
         "modelo1":0,
         "img1":"https://raw.githubusercontent.com/los-leones/images/master/home/slider/1.png",
         "type2":"armario",
-        "nombre2":"Armario gamer RGB",
-        "modelo2":1348,
+        "nombre2":"Armario dormitorio",
+        "modelo2":0,
         "img2":"https://raw.githubusercontent.com/los-leones/images/master/home/slider/2.png",
-        "type3":"mesa",
-        "nombre3":"Mesa gamer",
-        "modelo3":3349,
-        "img3":"https://raw.githubusercontent.com/los-leones/images/master/sillas/silla1.png"
+        "type3":"silla",
+        "nombre3":"Silla concha",
+        "modelo3":0,
+        "img3":"https://raw.githubusercontent.com/los-leones/images/master/home/slider/3.png",
+        "type4":"mesa",
+        "nombre4":"Mesa Malta centro",
+        "modelo4":0,
+        "img4":"https://raw.githubusercontent.com/los-leones/images/master/home/slider/4.png",
+        "type5":"mesa",
+        "nombre5":"Mesa Syros pata V",
+        "modelo5":1348,
+        "img5":"https://raw.githubusercontent.com/los-leones/images/master/home/slider/5.png"
         
     },
     "home_products":{

@@ -48,11 +48,6 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
     const history = useHistory();
     
     function SetPresupuesto(){
-        // let presupuesto={
-        //     nombre:"Me gustaria recibir un presupuesto para el articulo: "+props.product.nombre,
-        //     img:props.product.img
-        // }
-
         let presupuesto="Me gustaría recibir un presupuesto para el articulo: "+props.product.nombre;
         dispatch({type:'SET_PRESUPUESTO',value: presupuesto}); 
         history.push("/contact");
@@ -63,7 +58,7 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
             <div className="product_container">
                 <div className="product_container_img" onClick={handleOpen}>
                     <img src={logo} className="logo" alt="logo" />
-                    <img src={props.product.img} id={props.Key} alt="image" />
+                    <img src={props.product.img} className="product_img" id={props.Key} alt="image" />
                     <div className="dimension">
                         <p>{props.product.tamano}</p>
                     </div>

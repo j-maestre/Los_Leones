@@ -161,3 +161,8 @@ p{
     position: absolute;
     opacity: 0.7;
 }
+
+.modal_container{
+    display: flex;
+    flex-direction: column;
+}

@@ -13,6 +13,8 @@ import { useTranslation } from "react-i18next";
 import AllProducts from "../../data/articles.json";
 import ProductsPreview from "./Products_Preview";
 
+import { History } from 'history';
+
 type ProductsProps = {
   product:{
       type:string;

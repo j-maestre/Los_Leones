@@ -20,7 +20,10 @@ export class ContactComponent extends React.Component {
 
     constructor(props) {
         super(props);
+        // console.log("aaaaaaaaaaaaaa"+props)
       }
+      
+      
 
     CheckChanges = (value) =>{
         let input = value.target;
@@ -81,7 +84,16 @@ export class ContactComponent extends React.Component {
         }
     }
 
+    getPresupuesto = ()=>{
+        this.props.presupuesto?this.message.value=this.props.presupuesto:this.message.value="";
+    }
+
+    componentDidMount(){
+        this.getPresupuesto();
+    }
+    
     render(){
+        // this.getPresupuesto();
 
         return(
             <div className="contact_container">
@@ -103,11 +115,12 @@ export class ContactComponent extends React.Component {
                             <div className="form__phone">
                                 <input type="number" ref={ref => (this.phone = ref)} onChange={this.CheckChanges} id="phone" className="phone" placeholder="Teléfono" required={true} data-validation-required-message="Introduzca su telefono"></input>
                             </div>
-                            <div className="form__message">
+                            {/* value={this.state.presupuesto.nombre} */}
+                            <div className="form__message"> 
                                 <textarea id="message" ref={ref => (this.message = ref)} onChange={this.CheckChanges} className="form-control message" placeholder="Mensaje" required={true} data-validation-required-message="Introduzca el mensaje"></textarea>
                             </div>
                             <div className="form_send">
-                                <button type="submit" id="sendMessageButton" ref={ref => (this.send = ref)} className="btn-send" data-text="Send Message" onClick={this.succes}>Enviar mensaje</button>
+                                <button type="submit" id="sendMessageButton" ref={ref => (this.send = ref)} className="btn-send" data-text="Send Message" value={this.getPresupuesto} onClick={this.succes}>Enviar mensaje</button>
                             </div>
                         </form>
                     </div>

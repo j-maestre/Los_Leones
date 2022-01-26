@@ -1,6 +1,8 @@
 import React, { useContext, useState } from "react";
 import { AppContext } from "../../State";
-import { Link, Redirect } from "react-router-dom";
+import { Link, Redirect, NavLink } from "react-router-dom";
+import { RouteComponentProps } from 'react-router-dom';
+import { History } from 'history';
 import { useHistory } from "react-router-dom";
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
@@ -23,6 +25,8 @@ type ProductsPreviewProps = {
     };
     Key:string;
 };
+
+
 const style = {
     position: 'absolute' as 'absolute',
     top: '50%',
@@ -41,7 +45,18 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
     const { dispatch } = useContext(AppContext);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-    const prueba = () => console.log("Pene gordo");
+    const history = useHistory();
+    
+    function SetPresupuesto(){
+        // let presupuesto={
+        //     nombre:"Me gustaria recibir un presupuesto para el articulo: "+props.product.nombre,
+        //     img:props.product.img
+        // }
+
+        let presupuesto="Me gustaría recibir un presupuesto para el articulo: "+props.product.nombre;
+        dispatch({type:'SET_PRESUPUESTO',value: presupuesto}); 
+        history.push("/contact");
+    }
     
     
     return(
@@ -68,7 +83,13 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
                         {/* <Button className="close" onClick={handleClose}>X</Button> */}
                         {/* <Button onClick={prueba}>Close Child Modal</Button> */}
                         <button className="close" onClick={handleClose}>X</button>
-                        <img src={props.product.img} />
+                        <div className="modal_container">
+                            <img src={props.product.img} />
+                            {/* <NavLink to="contact"> */}
+                                <button id="sendMessageButton" onClick={SetPresupuesto} className="btn-send" data-text="Send Message">Solicitar presupuesto</button>
+                            {/* </NavLink> */}
+                            
+                        </div>
                     </Box>
                 </Modal>
             </div>

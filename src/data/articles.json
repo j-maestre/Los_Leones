@@ -1354,6 +1354,11 @@
             "nombre":"Seres",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/seres.png",
             "download":"https://github.com/j-maestre/Los_Leones/raw/master/src/data/catalogs/SERES_Cat%C3%A1logo%202020.pdf"
+        },
+        "7":{
+            "nombre":"ADEC",
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/adec.png",
+            "download":"https://github.com/j-maestre/Los_Leones/raw/master/src/data/catalogs/Catalogo_adec_2021.pdf"
         }
         
     }

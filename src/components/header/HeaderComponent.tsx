@@ -10,7 +10,7 @@ import '../../../src/css/bootstrap.min.css';
 import '../../../src/css/responsive.css';
 import '../../../src/css/custom.css';
 
-import logo from "../../data/img/logo1.png";
+import logo from "../../data/img/logo2.png";
 
 
 type HeaderProps = {

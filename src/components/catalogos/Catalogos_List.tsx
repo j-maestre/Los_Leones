@@ -45,6 +45,7 @@ const Catalogos_List: React.FC<CatalogosProps> = (props) => {
   return (
     <section className="catalogos_container">
       <h1 className="text-center">Nuestros catálogos</h1>
+      <p className="text-center">Seleccione un proveedor para descargar su catálogo.</p>
       <hr></hr>
       <section className="catalogs_links">
       {Object.keys(marcas).map((value,key)=>{

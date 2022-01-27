@@ -41,7 +41,7 @@ const About: React.FC<HeaderProps> = (props) =>{
                     <div className="social_container">
                         <a href="https://www.instagram.com/muebleslosleones/" target="#blank"><img className="social" src="https://raw.githubusercontent.com/los-leones/images/1dd3af51984d9098fd1b94627dac1174481439e8/social/instagram.svg" /></a>
                         <a href="https://www.facebook.com/MueblesLosLeones" target="#blank"><img className="social" src="https://raw.githubusercontent.com/los-leones/images/1dd3af51984d9098fd1b94627dac1174481439e8/social/facebook.svg" /></a>
-                        <a href="" target="#blank"><img className="social" src="https://raw.githubusercontent.com/los-leones/images/73812c30e28e3608aacbfb97919294a6386a28f4/social/google.svg" /></a>
+                        <a href="https://supple.live/cKAbmBboqgaTonJG8" target="#blank"><img className="social" src="https://raw.githubusercontent.com/los-leones/images/73812c30e28e3608aacbfb97919294a6386a28f4/social/google.svg" /></a>
                     </div>
 
                 </div>

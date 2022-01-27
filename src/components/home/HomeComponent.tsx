@@ -103,51 +103,45 @@ const HomeComponent: React.FC<HomeProps> = (props) =>{
                 <h2 className="text-center">Algunos de nuestros productos</h2>
                 <hr></hr>
                 <div className="home_products_container">
-
-
-                <div className="home_products_first">
-                <NavLink to="products" className="nav-link" activeClassName="active">
-                    <div className="home_product">
-                        <p className="background"><img className="prueba" src={props.home_products.img1}/></p>
+                    <div className="home_products_first">
+                    <NavLink to="products" className="nav-link" activeClassName="active">
+                        <div className="home_product">
+                            <p className="background"><img className="prueba" src={props.home_products.img1}/></p>
+                        </div>
+                    </NavLink>
+                    <NavLink to="products" className="nav-link" activeClassName="active">
+                        <div className="home_product">
+                        <p className="background"><img className="prueba" src={props.home_products.img2}/></p>
+                        </div>
+                    </NavLink>
+                    <NavLink to="products" className="nav-link" activeClassName="active">
+                        <div className="home_product">
+                        <p className="background"><img className="prueba" src={props.home_products.img3}/></p>
+                        </div>
+                    </NavLink>
                     </div>
-                </NavLink>
-                <NavLink to="products" className="nav-link" activeClassName="active">
-                    <div className="home_product">
-                    <p className="background"><img className="prueba" src={props.home_products.img2}/></p>
-                    </div>
-                </NavLink>
-                <NavLink to="products" className="nav-link" activeClassName="active">
-                    <div className="home_product">
-                    <p className="background"><img className="prueba" src={props.home_products.img3}/></p>
-                    </div>
-                </NavLink>
-                </div>
 
 
-                <div className="home_products">
-                <NavLink to="products" className="nav-link" activeClassName="active">
-                    <div className="home_product">
-                        {/* <p className="background"><img className="prueba" src={props.home_products.img1b}/></p> */}
-                        <img src={props.home_products.img1b}/>
+                    <div className="home_products">
+                    <NavLink to="products" className="nav-link" activeClassName="active">
+                        <div className="home_product">
+                            {/* <p className="background"><img className="prueba" src={props.home_products.img1b}/></p> */}
+                            <img src={props.home_products.img1b}/>
+                        </div>
+                    </NavLink>
+                    <NavLink to="products" className="nav-link" activeClassName="active">
+                        <div className="home_product">
+                        {/* <p className="background"><img className="prueba" src={props.home_products.img2b}/></p> */}
+                            <img src={props.home_products.img2b}/>
+                        </div>
+                    </NavLink>
+                    <NavLink to="products" className="nav-link" activeClassName="active">
+                        <div className="home_product">
+                        {/* <p className="background"><img className="prueba" src={props.home_products.img3b}/></p> */}
+                            <img src={props.home_products.img3b}/>
+                        </div>
+                    </NavLink>
                     </div>
-                </NavLink>
-                <NavLink to="products" className="nav-link" activeClassName="active">
-                    <div className="home_product">
-                    {/* <p className="background"><img className="prueba" src={props.home_products.img2b}/></p> */}
-                        <img src={props.home_products.img2b}/>
-                    </div>
-                </NavLink>
-                <NavLink to="products" className="nav-link" activeClassName="active">
-                    <div className="home_product">
-                    {/* <p className="background"><img className="prueba" src={props.home_products.img3b}/></p> */}
-                        <img src={props.home_products.img3b}/>
-                    </div>
-                </NavLink>
-                </div>
-
-
-
-                
                 </div>
 
 

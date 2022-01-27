@@ -100,7 +100,7 @@ export class ContactComponent extends React.Component {
                 
                 <section className="contact-title text-center">
                         <h1>Contacte con nosotros</h1>
-                        <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+                        <p>Para cualquier consulta, rellene los campos y nos pondremos en contacto con usted</p>
                         <hr></hr>
                 </section>
                 <section className="contact-form">

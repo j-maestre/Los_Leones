@@ -1,10 +1,9 @@
-import React, { useContext, useState } from "react";
-import { AppContext } from "../../State";
-import { Link, Redirect } from "react-router-dom";
-import { useHistory } from "react-router-dom";
+import React from "react";
+// import { AppContext } from "../../State";
+// import { Link, Redirect } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import './About.css';
 import image from '../../data/img/tienda_about.jpg';
-import GoogleMaps from '../maps/maps';
 import map from "../../data/img/mapa.png";
 
 type HeaderProps = {

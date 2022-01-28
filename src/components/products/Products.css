@@ -158,9 +158,11 @@ p{
     box-shadow: 0 0 2px 1px #ccc;
 }
 
-.logo{
+.logo_product{
     position: absolute;
     opacity: 0.7;
+    bottom: 150px;
+    right: 10px;
 }
 
 .modal_container{

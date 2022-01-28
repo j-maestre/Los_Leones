@@ -130,7 +130,7 @@ const Products: React.FC<ProductsProps> = ({product}) => {
                   <div className={toggleActive("silla","subfilter")} onClick={() => onClick("silla",0,"silla")}>Sillas</div>
                   <div className={toggleActive("taburete","subfilter")} onClick={() => onClick("silla",1,"taburete")}>Taburetes</div>
                   <div className={toggleActive("banco","subfilter")} onClick={() => onClick("silla",2,"banco")}>Banco</div>
-                  <div className={toggleActive("pub","subfilter")} onClick={() => onClick("silla",3,"pub")}>Pub</div>
+                  {/* <div className={toggleActive("pub","subfilter")} onClick={() => onClick("silla",3,"pub")}>Pub</div> */}
                   <div className={toggleActive("butaca","subfilter")} onClick={() => onClick("silla",4,"butaca")}>Butaca</div>
                </section>
       break;
@@ -141,7 +141,7 @@ const Products: React.FC<ProductsProps> = ({product}) => {
       break;
       case 'dormitorio':
         return <section className="button-group filter-button-group">
-                    <div className={toggleActive("juvenil","subfilter")} onClick={() => onClick("dormitorio",0,"juvenil")}>Juveniles</div>
+                    {/* <div className={toggleActive("juvenil","subfilter")} onClick={() => onClick("dormitorio",0,"juvenil")}>Juveniles</div> */}
                </section>
       break;
       case 'otros':

@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
                                 <div className="footer_social_container">
                                     <a className='social_media' href="https://www.instagram.com/muebleslosleones/" target="#blank"><img className="social_footer" src="https://raw.githubusercontent.com/los-leones/images/1dd3af51984d9098fd1b94627dac1174481439e8/social/instagram.svg" /></a>       
                                     <a className='social_media' href="https://www.facebook.com/MueblesLosLeones" target="#blank"><img className="social_footer" src="https://raw.githubusercontent.com/los-leones/images/1dd3af51984d9098fd1b94627dac1174481439e8/social/facebook.svg" /></a>
-                                    <a className='social_media' href="" target="#blank"><img className="social_footer" src="https://raw.githubusercontent.com/los-leones/images/73812c30e28e3608aacbfb97919294a6386a28f4/social/google.svg" /></a>
+                                    <a className='social_media' href="https://supple.live/cKAbmBboqgaTonJG8" target="#blank"><img className="social_footer" src="https://raw.githubusercontent.com/los-leones/images/73812c30e28e3608aacbfb97919294a6386a28f4/social/google.svg" /></a>
                                 </div>
                                 
                                 <p className="footer-company-name">All Rights Reserved. &copy; 2022 <a href="#">Muebles Los Leones</a></p>

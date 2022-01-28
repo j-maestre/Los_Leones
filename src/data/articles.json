@@ -944,7 +944,7 @@
             "color": "Blanco / Negro",
             "material":"Símil piel",
             "descripcion":"Kit inferior cromado, reposapies",
-            "modelo":3,
+            "modelo":1,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sillas/01-020.png"
@@ -1272,6 +1272,66 @@
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-007.png"
+        },
+        "107":{
+            "type":"dormitorio",
+            "nombre":"Dormitorio completo",
+            "tamano":"Dormitorio completo",
+            "color": "",
+            "material":"",
+            "descripcion":"",
+            "modelo":0,
+            "fabricante":"COSMO",
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/dormitorios/COMP-1.png"
+        },
+        "108":{
+            "type":"dormitorio",
+            "nombre":"Dormitorio completo",
+            "tamano":"Dormitorio completo",
+            "color": "",
+            "material":"",
+            "descripcion":"",
+            "modelo":0,
+            "fabricante":"COSMO",
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/dormitorios/COMP-2.png"
+        },
+        "109":{
+            "type":"dormitorio",
+            "nombre":"Dormitorio completo",
+            "tamano":"Dormitorio completo",
+            "color": "",
+            "material":"",
+            "descripcion":"",
+            "modelo":0,
+            "fabricante":"COSMO",
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/dormitorios/COMP-3.png"
+        },
+        "110":{
+            "type":"dormitorio",
+            "nombre":"Dormitorio completo",
+            "tamano":"Dormitorio completo",
+            "color": "",
+            "material":"",
+            "descripcion":"",
+            "modelo":0,
+            "fabricante":"COSMO",
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/dormitorios/COMP-4.png"
+        },
+        "111":{
+            "type":"dormitorio",
+            "nombre":"Dormitorio completo",
+            "tamano":"Dormitorio completo",
+            "color": "",
+            "material":"",
+            "descripcion":"",
+            "modelo":0,
+            "fabricante":"COSMO",
+            "descuento":0.50,
+            "img":"https://raw.githubusercontent.com/los-leones/images/master/dormitorios/COMP-5.png"
         }
     },
     "slider":{

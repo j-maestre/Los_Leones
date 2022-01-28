@@ -8,7 +8,8 @@ import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import logo from "../../data/img/logo48.png";
+import logo from "../../data/img/logo_bueno.png";
+// import logo2 from "../..data/img/logo_bueno.png";
 
 type ProductsPreviewProps = {
     product:{
@@ -53,12 +54,19 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
         dispatch({type:'SET_PRESUPUESTO',value: presupuesto}); 
         history.push("/contact");
     }
+
+    function CheckType(){
+        if(props.product.type!="dormitorio"){
+            return <img src={logo} className="logo" alt="logo" />
+        }
+    }
     
     
     return(
             <div className="product_container">
                 <div className="product_container_img" onClick={handleOpen}>
-                    <img src={logo} className="logo" alt="logo" />
+                    {/* {CheckType()} */}
+                    <img src={logo} className="logo_product" alt="logo" />
                     <img src={props.product.img} className="product_img" id={props.Key} alt="image" />
                     <div className="dimension">
                         <p>{props.product.tamano}</p>

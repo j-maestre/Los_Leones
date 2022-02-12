@@ -176,7 +176,7 @@
             "color": "Blanco mate",
             "material":"Mdera haya / Metal",
             "descripcion":"Tablero lacado en blanco mate / Patas en madera haya / Estructura inferior metalica",
-            "modelo":0,
+            "modelo":1,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-014.png"
@@ -212,7 +212,7 @@
             "color": "Roble / Negro",
             "material":"Roble Nordish / Roble American",
             "descripcion":"Peana metálica en color negro",
-            "modelo":2,
+            "modelo":1,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-017.png"
@@ -224,7 +224,7 @@
             "color": "Roble / Negro",
             "material":"Roble Nordish / Roble American",
             "descripcion":"Peana metálica en color negro",
-            "modelo":2,
+            "modelo":1,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-018.png"
@@ -392,7 +392,7 @@
             "color": "Negro / Blanco",
             "material":"Roble Nordish / Roble American / Metal",
             "descripcion":"Madera de roble y cajón interior portaobjetos. Estructura metálica",
-            "modelo":0,
+            "modelo":7,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-019.png"
@@ -404,7 +404,7 @@
             "color": "Negro / Blanco",
             "material":"Roble Nordish / Roble American / Metal",
             "descripcion":"Madera de roble. Patas metálica",
-            "modelo":0,
+            "modelo":7,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-020.png"
@@ -416,7 +416,7 @@
             "color": "Negro / Blanco",
             "material":"Roble / Nogal",
             "descripcion":"Elevable y extensible, estructura metálica, elevación por gas",
-            "modelo":0,
+            "modelo":7,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-021.png"
@@ -428,7 +428,7 @@
             "color": "Blanco",
             "material":"Madera",
             "descripcion":"Tapa y estante melamina color blanco. Patas en madera",
-            "modelo":0,
+            "modelo":7,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-022.png"
@@ -440,7 +440,7 @@
             "color": "Blanco",
             "material":"Madera",
             "descripcion":"Patas en madera",
-            "modelo":0,
+            "modelo":7,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-023.png"
@@ -452,7 +452,7 @@
             "color": "Blanco",
             "material":"Madera",
             "descripcion":"Patas en madera",
-            "modelo":0,
+            "modelo":3,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-024.png"
@@ -482,61 +482,61 @@
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-001.png"
         },
         "40":{
-            "type":"estanteria",
+            "type":"mesa",
             "nombre":"Mueble TV Plank",
             "tamano":"45x150cm",
             "color": "Roble",
             "material":"Roble Nordish / Roble American",
             "descripcion":"Estructura metálica color negro",
-            "modelo":0,
+            "modelo":5,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-002.png"
         },
         "41":{
-            "type":"estanteria",
+            "type":"mesa",
             "nombre":"Consola Natural",
             "tamano":"80x90cm",
             "color": "Negro / Blanco",
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble, estructura metálica y estante interior símil cuero",
-            "modelo":0,
+            "modelo":6,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-003.png"
         },
         "42":{
-            "type":"estanteria",
+            "type":"mesa",
             "nombre":"Consola Industrial",
             "tamano":"75x150cm",
             "color": "Roble / Negro",
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble, estructura metálica de color negro",
-            "modelo":0,
+            "modelo":6,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-004.png"
         },
         "43":{
-            "type":"estanteria",
+            "type":"mesa",
             "nombre":"Mueble TV Industrial",
             "tamano":"47x150cm",
             "color": "Roble / Negro",
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble, estructura metálica de color negro",
-            "modelo":0,
+            "modelo":5,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-005.png"
         },
         "44":{
-            "type":"estanteria",
+            "type":"mesa",
             "nombre":"Mesa centro Industrial",
             "tamano":"46x100cm",
             "color": "Roble / Negro",
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble, estructura metálica de color negro",
-            "modelo":0,
+            "modelo":7,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-006.png"
@@ -578,13 +578,13 @@
             "img":"https://raw.githubusercontent.com/los-leones/images/master/otros/03-001.png"
         },
         "49":{
-            "type":"estanteria",
+            "type":"mesa",
             "nombre":"Consola baja Industrial",
             "tamano":"52x100cm",
             "color": "Roble",
             "material":"Roble Nordish / Roble American",
             "descripcion":"Madera de roble, estructura metálica de color negro",
-            "modelo":0,
+            "modelo":6,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-008.png"
@@ -596,7 +596,7 @@
             "color": "Pino",
             "material":"Pino reciclado",
             "descripcion":"Patas madera color negro",
-            "modelo":0,
+            "modelo":7,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-026.png"
@@ -608,19 +608,19 @@
             "color": "Pino",
             "material":"Pino reciclado",
             "descripcion":"Patas madera color negro, 2 cajones",
-            "modelo":0,
+            "modelo":7,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-027.png"
         },
         "52":{
-            "type":"estanteria",
+            "type":"mesa",
             "nombre":"Mueble TV 130 cm Pixie",
             "tamano":"48x130cm",
             "color": "Pino",
             "material":"Pino reciclado",
             "descripcion":"Patas madera color negro, 2 cajones",
-            "modelo":0,
+            "modelo":5,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-008.png"
@@ -680,7 +680,7 @@
             "color": "Pino",
             "material":"Pino reciclado",
             "descripcion":"Patas madera color negro, dos cajones",
-            "modelo":0,
+            "modelo":6,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-029.png"
@@ -698,7 +698,7 @@
             "img":"https://raw.githubusercontent.com/los-leones/images/master/estanterias/02-010.png"
         },
         "59":{
-            "type":"mesa",
+            "type":"otros",
             "nombre":"Tocador con espejo Diva",
             "tamano":"133x80cm",
             "color": "Blanco natural",
@@ -952,7 +952,7 @@
         "80":{
             "type":"silla",
             "nombre":"Taburete giratorio Britain",
-            "tamano":"-x-cm",
+            "tamano":"48x52x98cm",
             "color": "Blanco",
             "material":"Símil piel",
             "descripcion":"Kit inferior cromado, reposapies",
@@ -980,7 +980,7 @@
             "color": "Blanco / Negro",
             "material":"Cristal templado",
             "descripcion":"Elevable, cristal interior portaobjetos",
-            "modelo":0,
+            "modelo":7,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-040.png"
@@ -992,7 +992,7 @@
             "color": "Transparente",
             "material":"Cristal templado",
             "descripcion":"Patas metálicas cromadas",
-            "modelo":0,
+            "modelo":7,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-041.png"
@@ -1004,7 +1004,7 @@
             "color": "Transparente",
             "material":"Cristal templado",
             "descripcion":"Cristal templado",
-            "modelo":0,
+            "modelo":7,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/mesas/00-042.png"
@@ -1208,7 +1208,7 @@
             "color": "Gris",
             "material":"Tejido",
             "descripcion":" Patas antivuelco ocultas en respaldo",
-            "modelo":0,
+            "modelo":1,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-004.png"
@@ -1220,7 +1220,7 @@
             "color": "Mostaza / Verde aguamarina",
             "material":"Tejido",
             "descripcion":" Patas antivuelco ocultas en respaldo",
-            "modelo":0,
+            "modelo":1,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-005.png"
@@ -1232,31 +1232,31 @@
             "color": "Blanco / Negro",
             "material":"Símil piel",
             "descripcion":"Mecanismo clic clac con apertura de tipo libro",
-            "modelo":0,
+            "modelo":1,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/sofas/04-006.png"
         },
         "104":{
-            "type":"cama",
+            "type":"sofa",
             "nombre":"Sofá cama Capitoné",
             "tamano":" 160 x 12 x 140 cm",
             "color": "Blanco",
             "material":"Símil piel",
             "descripcion":"Cabecero tapizado con patas cromadas",
-            "modelo":0,
+            "modelo":1,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/camas/05-000.png"
         },
         "105":{
-            "type":"cama",
+            "type":"sofa",
             "nombre":"Sofá cama Enfield",
             "tamano":"160 x 12 x 95 cm",
             "color": "Blanco",
             "material":"Símil piel",
             "descripcion":"Cabecero tapizado para colgar",
-            "modelo":0,
+            "modelo":1,
             "fabricante":"ADEC",
             "descuento":0.50,
             "img":"https://raw.githubusercontent.com/los-leones/images/master/camas/05-001.png"
@@ -1428,7 +1428,7 @@
         "9":{
             "nombre":"CRETA",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/creta.png",
-            "download":"https://github.com/j-maestre/Los_Leones/raw/master/src/data/catalogs/CATALOGO_CRETA_TOP_2019.pdf.pdf"
+            "download":"https://github.com/j-maestre/Los_Leones/raw/master/src/data/catalogs/CATALOGO_CRETA_TOP_2019.pdf"
         },
         "10":{
             "nombre":"CUBIKA BOL",

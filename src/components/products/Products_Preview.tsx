@@ -60,6 +60,14 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
             return <img src={logo} className="logo" alt="logo" />
         }
     }
+
+    function handleModalclass(){
+        if(props.product.type=="dormitorio"){
+            return "modal_content big_modal"
+        }else{
+            return "modal_content"
+        }
+    }
     
     
     return(
@@ -83,7 +91,9 @@ const ProductsPreview: React.FC<ProductsPreviewProps> = (props) =>{
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"
                 >
-                    <Box sx={style} className="modal_content">
+                    
+                    <Box sx={style} className={handleModalclass()}>
+                        {/* Si la imagen es grande, modal_content tiene que medir 609px */}
                         {/* <Button className="close" onClick={handleClose}>X</Button> */}
                         {/* <Button onClick={prueba}>Close Child Modal</Button> */}
                         <button className="close" onClick={handleClose}>X</button>

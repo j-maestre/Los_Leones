@@ -49,7 +49,7 @@ const Header: React.FC<HeaderProps> = (props) => {
               </li>
 
               <li className="nav-item">
-              <NavLink className="nav-link" to="catalogos" activeClassName="active">Catalogos</NavLink>
+              <NavLink className="nav-link" to="catalogos" activeClassName="active">Catálogos</NavLink>
               </li>
 
               <li className="nav-item">

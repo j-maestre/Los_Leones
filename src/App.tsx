@@ -50,7 +50,7 @@ const App: React.FC = () =>(
           {/* <Route component={Error404} /> */}
 
             <Route
-              path="/"
+              path=""
               render={() => <Redirect to="/home" />}
               exact={true}
             />
@@ -63,11 +63,5 @@ const App: React.FC = () =>(
     {/* </IonApp> */}
   </AppContextProvider>
 );
-
-// App.use(function(req, res, next) {
-//   res.header("Access-Control-Allow-Origin", "*");
-//   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-//   next();
-// });
 
 export default App;

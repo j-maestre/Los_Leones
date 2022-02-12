@@ -46,6 +46,9 @@ const Products: React.FC<ProductsProps> = ({product}) => {
   },[]);
 
   function onClick(type,model,toActive,articles = null){
+    //Type-> mesa, silla, sofa...
+    //Model -> mesa/comedor, mesa/bar.... silla/taburete,silla/banco....
+
     //Filtramos la categoria seleccionada
     setArticles(type,model,articles);
     //Cambiamos el item activo de la subcategoria
@@ -120,9 +123,12 @@ const Products: React.FC<ProductsProps> = ({product}) => {
         return <section className="button-group filter-button-group">
                   <div className={toggleActive("comedor","subfilter")} onClick={() => onClick("mesa",0,"comedor")}>Comedor</div>
                   <div className={toggleActive("alta","subfilter")} onClick={() => onClick("mesa",1,"alta")}>Alta</div>
-                  <div className={toggleActive("bar","subfilter")} onClick={() => onClick("mesa",2,"bar")}>Bar</div>
+                  {/* <div className={toggleActive("bar","subfilter")} onClick={() => onClick("mesa",2,"bar")}>Bar</div> */}
                   <div className={toggleActive("mesilla","subfilter")} onClick={() => onClick("mesa",3,"mesilla")}>Mesilla</div>
                   <div className={toggleActive("tocador","subfilter")} onClick={() => onClick("mesa",4,"tocador")}>Tocador</div>
+                  <div className={toggleActive("tv","subfilter")} onClick={() => onClick("mesa",5,"tv")}>Muebles TV</div>
+                  <div className={toggleActive("consola","subfilter")} onClick={() => onClick("mesa",6,"consola")}>Consolas</div>
+                  <div className={toggleActive("centro","subfilter")} onClick={() => onClick("mesa",7,"centro")}>Centro</div>
                </section>
       break;
       case 'silla':
@@ -144,12 +150,18 @@ const Products: React.FC<ProductsProps> = ({product}) => {
                     {/* <div className={toggleActive("juvenil","subfilter")} onClick={() => onClick("dormitorio",0,"juvenil")}>Juveniles</div> */}
                </section>
       break;
+      case 'sofa':
+        return <section className="button-group filter-button-group">
+                    <div className={toggleActive("cama","subfilter")} onClick={() => onClick("sofa",1,"cama")}>Sofá cama</div>
+               </section>
+      break;
       case 'otros':
         return <section className="button-group filter-button-group">
                     <div className={toggleActive("silla","subfilter")} onClick={() => onClick("otros",0,"cabecero")}>Cabeceros</div>
                     <div className={toggleActive("taburete","subfilter")} onClick={() => onClick("otros",1,"taburete")}>Percheros</div>
                     <div className={toggleActive("espejo","subfilter")} onClick={() => onClick("otros",2,"espejo")}>Espejos</div>
                     <div className={toggleActive("pizarra","subfilter")} onClick={() => onClick("otros",3,"pizarra")}>Pizarras</div>
+                    <div className={toggleActive("tocador","subfilter")} onClick={() => onClick("otros",4,"tocador")}>Tocadores</div>
                </section>
       break;
       default:
@@ -163,13 +175,13 @@ const Products: React.FC<ProductsProps> = ({product}) => {
       <Header page={t("pages.products")} />
       <div className="products-title text-center">
         <h1 >Productos</h1>
-        <p>Estas son algunos de nuestros productos, para consultar todos los productos, visite catálogos.</p>
+        <p>Estos son algunos de nuestros productos, para consultar todos los productos, visite catálogos.</p>
       </div>
       <hr></hr>
         <section className="products__menu button-group filter-button-group"> {/*text-center*/}
           <div className={toggleActive("all","principal")} onClick={() => setArticles("all",-1)}>Todo</div>
           {/* <div className={toggleActive("armario","principal")} onClick={() => setArticles("armario",-1)}>Armarios</div> */}
-          <div className={toggleActive("cama","principal")} onClick={() => setArticles("cama",-1)}>Camas</div>
+          {/* <div className={toggleActive("cama","principal")} onClick={() => setArticles("cama",-1)}>Camas</div> */}
           <div className={toggleActive("comedor","principal")} onClick={() => setArticles("comedor",-1)}>Comedores</div>
           <div className={toggleActive("dormitorios","principal")} onClick={() => setArticles("dormitorio",-1)}>Dormitorios</div>
           <div className={toggleActive("estanteria","principal")} onClick={() => setArticles("estanteria",-1)}>Estanterias</div>

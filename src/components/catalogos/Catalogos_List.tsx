@@ -6,7 +6,7 @@ import "../../css/bootstrap.min.css"
 
 import Header from "../../components/header/HeaderComponent";
 import Footer from "../../components/footer/Footer";
-import catalogos from "../..//data/articles.json"
+import catalogos from "../../data/articles.json"
 
 import { useTranslation } from "react-i18next";
 
@@ -21,26 +21,7 @@ const Catalogos_List: React.FC<CatalogosProps> = (props) => {
   const { t } = useTranslation();
   const { state, dispatch } = useContext(AppContext);
   let marcas = catalogos.catalogos;
-  console.log("MARCAS");
-  console.log(marcas);
-  // console.log(Object.size(marcas));
-
   let catalogos_list;
-  // catalogos_list = Object.keys(marcas).map((value,key)=>{
-  //   <div className="catalogo_item">
-  //     <h3>{marcas[value].nombre}</h3>
-  //     <a href="https://github.com/j-maestre/Los_Leones/raw/master/src/data/catalogs/BELFAST2021.pdf" download="BELFAST2021.pdf"><img src={marcas[value].img} /></a>
-  //   </div>
-  // });
-  console.log("Catalogos list");
-  console.log(catalogos_list)
-    // <h3>{marcas[value].nombre}</h3>
-    // <h3>marcas[value].nombre</h3>
-    // <img src={marcas[value].img} />
-    // console.log(marcas[value].nombre)
-  
-
-
 
   return (
     <section className="catalogos_container">
@@ -51,7 +32,7 @@ const Catalogos_List: React.FC<CatalogosProps> = (props) => {
       {Object.keys(marcas).map((value,key)=>{
       return(
         <div className="catalogo_item">
-          <h3>{marcas[value].nombre}</h3>
+          <h3>{marcas[value].nombre}</h3>{/*{marcas[value].download}*/}
           <a href={marcas[value].download} download={marcas[value].nombre+".pdf"}><img src={marcas[value].img} /></a>
         </div>)
       })}

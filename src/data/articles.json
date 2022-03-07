@@ -1383,72 +1383,86 @@
         "0":{
             "nombre":"Belfast Seres",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/belfast.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/BELFAST2021.pdf"
+            "download":"./data/BELFAST2021.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/BELFAST2021.pdf"
         },
         "1":{
             "nombre":"Eos Cosmo",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/cosmo.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/Catalogo_Eos_Cosmo_2020.pdf"
+            "download":"./data/Catalogo_Eos_Cosmo_2020.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/Catalogo_Eos_Cosmo_2020.pdf"
         },
         "2":{
             "nombre":"Formas",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/formas.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/Catalogo_Formas_19.pdf"
+            "download":"./data/Catalogo_Formas_19.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/Catalogo_Formas_19.pdf"
         },
         "3":{
             "nombre":"Basic",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/basic.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/DORMITORIOS_BASIC.pdf"
+            "download":"./data/DORMITORIOS_BASIC.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/DORMITORIOS_BASIC.pdf"
         },
         "4":{
             "nombre":"Forest",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/forest.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/FOREST_2021.pdf"
+            "download":"./data/FOREST_2021.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/FOREST_2021.pdf"
         },
         "5":{
             "nombre":"Mood Ros",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/mod_ros.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/MOOD_ROS_MINI_2020.pdf"
+            "download":"./data/MOOD_ROS_MINI_2020.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/MOOD_ROS_MINI_2020.pdf"
         },
         "6":{
             "nombre":"Seres",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/seres.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/SERES_Cat%C3%A1logo%202020.pdf"
+            "download":"./data/SERES_Catalogo_2020.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/SERES_Catalogo_2020.pdf"
         },
         "7":{
             "nombre":"ADEC",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/adec.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/Catalogo_adec_2021.pdf"
+            "download":"./data/Catalogo_adec_2021.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/Catalogo_adec_2021.pdf"
         },
         "8":{
             "nombre":"PEMI",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/pemi.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/pemi_catalogo_2021.pdf"
+            "download":"./data/pemi_catalogo_2021.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/pemi_catalogo_2021.pdf"
         },
         "9":{
             "nombre":"CRETA",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/creta.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/CATALOGO_CRETA_TOP_2019.pdf"
+            "download":"./data/CATALOGO_CRETA_TOP_2019.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/CATALOGO_CRETA_TOP_2019.pdf"
         },
         "10":{
             "nombre":"CUBIKA BOL",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/cubika.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/CATALOGO_CUBIKA_BOL_V.6.pdf"
+            "download":"./data/CATALOGO_CUBIKA_BOL_V.6.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/CATALOGO_CUBIKA_BOL_V.6.pdf"
         },
         "11":{
             "nombre":"GNESIS",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/gnesis.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/CATALOGO_GNESIS_2020.pdf"
+            "download":"./data/CATALOGO_GNESIS_2020.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/CATALOGO_GNESIS_2020.pdf"
         },
         "12":{
             "nombre":"CRETA BASIC",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/creta_basic.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/CRETA_BASIC_2019.pdf"
+            "download":"./data/catalogos/CRETA_BASIC_2019.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/CRETA_BASIC_2019.pdf"
         },
         "13":{
             "nombre":"JUNIOR",
             "img":"https://raw.githubusercontent.com/los-leones/images/master/catalogos/junior.png",
-            "download":"https://github.com/los-leones/images/raw/master/catalogos/JUNIOR_19.pdf"
+            "download":"./data/JUNIOR_19.pdf",
+            "download_old":"https://github.com/los-leones/images/raw/master/catalogos/JUNIOR_19.pdf"
         }
         
     }

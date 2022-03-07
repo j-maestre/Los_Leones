@@ -35,18 +35,18 @@ const App: React.FC = () =>(
     <Autoload/>
     {/* <IonApp> */}
       <Router>
-      <Suspense fallback="loading">
+        <Suspense fallback="loading">
         {/* <IonPage> */}
           {/* <Menu /> */}
           <Router > {/*id="los_leones_Navigation"*/ }
 
           {/* <PublicRoute component={Login} path="/login" exact />
           <PublicRoute component={ChangePassword} path="/recover/:token" exact /> */}
-          <Route component={Home} path="/home"></Route>
-          <Route component={Products} path="/products"></Route>
-          <Route component={AboutUs} path="/about"></Route>
-          <Route component={ContactUs} path="/contact"></Route>
-          <Route component={Catalogos} path="/catalogos"></Route>
+          <Route component={Home} exact path="/home"></Route>
+          <Route component={Products} exact path="/products"></Route>
+          <Route component={AboutUs} exact path="/about"></Route>
+          <Route component={ContactUs} exact path="/contact"></Route>
+          <Route component={Catalogos} exact path="/catalogos"></Route>
           {/* <Route component={Error404} /> */}
 
             <Route
@@ -54,6 +54,7 @@ const App: React.FC = () =>(
               render={() => <Redirect to="/home" />}
               exact={true}
             />
+            {/* <Route exact path="/" render={() => <Redirect to="/home" />}/> */}
             {/* <Route path="/app" component={Tabs} />  MENU HEADER*/}
 
           </Router>

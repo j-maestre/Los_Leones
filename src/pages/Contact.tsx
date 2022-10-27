@@ -14,8 +14,8 @@ const ContactUs = () => {
   const { state, dispatch } = useContext(AppContext);
   
 //   const productsArray = Object.values(products);
-  console.log("----------------------------Antes de cargar contact----------------------------");
-  console.log(state.presupuesto);
+  //console.log("----------------------------Antes de cargar contact----------------------------");
+  //console.log(state.presupuesto);
 
   return (
     <>

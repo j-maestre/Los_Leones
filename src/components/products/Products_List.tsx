@@ -57,7 +57,7 @@ const Products: React.FC<ProductsProps> = ({product}) => {
 
   function filterProducts(products, type="all", model){
     let productsFiltred = [...products];
-    console.log("Filtrar productos por modelo "+model);
+    //console.log("Filtrar productos por modelo "+model);
 
     if(type=="all"){
       //Todos los productos
@@ -84,7 +84,7 @@ const Products: React.FC<ProductsProps> = ({product}) => {
   }
 
   function setArticles(type, model,articles = null){
-    console.log("Set articles model: "+model);
+    //console.log("Set articles model: "+model);
 
     // dispatch({type:'SET_FILTER',value: type}) 
     if(!articles){

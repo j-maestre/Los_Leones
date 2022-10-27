@@ -61,6 +61,8 @@ export class ContactComponent extends React.Component {
         email: this.email.value,
         from_name: this.name.value
       }
+      //console.log("email id service " + EMAIL_IDSERVICE);
+      //console.log("userid " + EMAIL_USERID);
       
       await init(EMAIL_USERID);
       let succes = true;
@@ -71,6 +73,7 @@ export class ContactComponent extends React.Component {
             }, function(error) {
                 succes = false;
                 toast.error("Error en el envio");
+                //console.log(error)
             });
             
         }catch(error){

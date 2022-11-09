@@ -43,6 +43,7 @@ const App: React.FC = () =>(
           {/* <PublicRoute component={Login} path="/login" exact />
           <PublicRoute component={ChangePassword} path="/recover/:token" exact /> */}
           <Route component={Home} exact path="/home"></Route>
+          <Route component={Home} exact path="/"></Route>
           <Route component={Products} exact path="/products"></Route>
           <Route component={AboutUs} exact path="/about"></Route>
           <Route component={ContactUs} exact path="/contact"></Route>
@@ -51,6 +52,16 @@ const App: React.FC = () =>(
 
             <Route
               path=""
+              render={() => <Redirect to="/home" />}
+              exact={true}
+            />
+            <Route
+              path="*"
+              render={() => <Redirect to="/home" />}
+              exact={true}
+            />
+            <Route
+              path="/*"
               render={() => <Redirect to="/home" />}
               exact={true}
             />
